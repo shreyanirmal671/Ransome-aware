@@ -1,0 +1,1067 @@
+2026-03-05 21:03:45,580 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-05 21:03:45,581 | INFO | [33mPress CTRL+C to quit[0m
+2026-03-05 21:03:47,686 | INFO | 127.0.0.1 - - [05/Mar/2026 21:03:47] "GET / HTTP/1.1" 200 -
+2026-03-05 21:03:48,587 | INFO | 127.0.0.1 - - [05/Mar/2026 21:03:48] "GET /socket.io/?EIO=4&transport=polling&t=Po_Autb HTTP/1.1" 200 -
+2026-03-05 21:03:48,944 | INFO | 127.0.0.1 - - [05/Mar/2026 21:03:48] "POST /socket.io/?EIO=4&transport=polling&t=Po_AuuD&sid=PgNdx7Ogfa5fcMD2AAAA HTTP/1.1" 200 -
+2026-03-05 21:03:48,948 | INFO | 127.0.0.1 - - [05/Mar/2026 21:03:48] "GET /socket.io/?EIO=4&transport=polling&t=Po_AuuE&sid=PgNdx7Ogfa5fcMD2AAAA HTTP/1.1" 200 -
+2026-03-05 21:03:49,193 | INFO | 127.0.0.1 - - [05/Mar/2026 21:03:49] "GET /socket.io/?EIO=4&transport=polling&t=Po_Au-E&sid=PgNdx7Ogfa5fcMD2AAAA HTTP/1.1" 200 -
+2026-03-05 21:03:49,326 | INFO | 127.0.0.1 - - [05/Mar/2026 21:03:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-05 21:03:50,601 | INFO | 127.0.0.1 - - [05/Mar/2026 21:03:50] "GET /api/report HTTP/1.1" 200 -
+2026-03-05 21:05:09,735 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:09,735 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\DPC340UPDKP7YXPRPRX2.temp
+2026-03-05 21:05:09,736 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:09,748 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\DPC340UPDKP7YXPRPRX2.temp
+2026-03-05 21:05:09,749 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\DPC340UPDKP7YXPRPRX2.temp
+2026-03-05 21:05:09,750 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\DPC340UPDKP7YXPRPRX2.temp
+2026-03-05 21:05:09,751 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\DPC340UPDKP7YXPRPRX2.temp
+2026-03-05 21:05:09,752 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4334b2a6.TMP
+2026-03-05 21:05:09,754 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\DPC340UPDKP7YXPRPRX2.temp
+2026-03-05 21:05:09,755 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:09,756 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 10 events in 10s
+2026-03-05 21:05:09,759 | WARNING | ALERT | Level=MEDIUM | Reason=High ratio of modifications+renames (early ransomware pattern) | Details=10 events in 10s
+2026-03-05 21:05:09,760 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4334b2a6.TMP
+2026-03-05 21:05:09,760 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms | dest=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4334b2a6.TMP
+2026-03-05 21:05:09,761 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:09,762 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\DPC340UPDKP7YXPRPRX2.temp | dest=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms
+2026-03-05 21:05:09,764 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:09,764 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 15 events in 10s
+2026-03-05 21:05:09,765 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4334b2a6.TMP
+2026-03-05 21:05:09,766 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 16 events in 10s
+2026-03-05 21:05:09,767 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms
+2026-03-05 21:05:09,767 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 17 events in 10s
+2026-03-05 21:05:09,768 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4334b2a6.TMP
+2026-03-05 21:05:09,769 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:11,018 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:11,019 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 20 events in 10s
+2026-03-05 21:05:11,028 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:11,030 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 21 events in 10s
+2026-03-05 21:05:11,094 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Code\User\workspaceStorage\3f57e4d5923e032e15f87d1579c4dba7\chatEditingSessions\f120e010-a092-494b-8a74-35f205d6464a\state.json
+2026-03-05 21:05:11,095 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 22 events in 10s
+2026-03-05 21:05:11,122 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Code\User\workspaceStorage\3f57e4d5923e032e15f87d1579c4dba7\chatEditingSessions\f120e010-a092-494b-8a74-35f205d6464a\state.json
+2026-03-05 21:05:11,125 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 23 events in 10s
+2026-03-05 21:05:11,631 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg
+2026-03-05 21:05:11,632 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg
+2026-03-05 21:05:11,633 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 25 events in 10s
+2026-03-05 21:05:11,634 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,634 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 26 events in 10s
+2026-03-05 21:05:11,637 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.txt
+2026-03-05 21:05:11,639 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,641 | WARNING | ALERT [HIGH] | Mass file modification detected | 20 files modified in 10s
+2026-03-05 21:05:11,645 | WARNING | ALERT | Level=HIGH | Reason=Mass file modification detected | Details=20 files modified in 10s
+2026-03-05 21:05:11,647 | WARNING | CLASSIFICATION | Family=Generic Ransomware | Confidence=10% | Risk=MEDIUM
+2026-03-05 21:05:11,652 | CRITICAL | DETECTION | Family=Generic Ransomware | Confidence=10% | Risk=MEDIUM
+2026-03-05 21:05:11,658 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.txt
+2026-03-05 21:05:11,659 | WARNING | ALERT [HIGH] | Mass file modification detected | 21 files modified in 10s
+2026-03-05 21:05:11,662 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.xlsx
+2026-03-05 21:05:11,663 | WARNING | ALERT [HIGH] | Mass file modification detected | 21 files modified in 10s
+2026-03-05 21:05:11,665 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.xlsx
+2026-03-05 21:05:11,666 | WARNING | ALERT [HIGH] | Mass file modification detected | 22 files modified in 10s
+2026-03-05 21:05:11,669 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,670 | WARNING | ALERT [HIGH] | Mass file modification detected | 23 files modified in 10s
+2026-03-05 21:05:11,673 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.xlsx
+2026-03-05 21:05:11,674 | WARNING | ALERT [HIGH] | Mass file modification detected | 23 files modified in 10s
+2026-03-05 21:05:11,678 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,679 | WARNING | ALERT [HIGH] | Mass file modification detected | 24 files modified in 10s
+2026-03-05 21:05:11,681 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.xlsx
+2026-03-05 21:05:11,682 | WARNING | ALERT [HIGH] | Mass file modification detected | 25 files modified in 10s
+2026-03-05 21:05:11,684 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_004.txt
+2026-03-05 21:05:11,686 | WARNING | ALERT [HIGH] | Mass file modification detected | 25 files modified in 10s
+2026-03-05 21:05:11,689 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,690 | WARNING | ALERT [HIGH] | Mass file modification detected | 26 files modified in 10s
+2026-03-05 21:05:11,694 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_004.txt
+2026-03-05 21:05:11,696 | WARNING | ALERT [HIGH] | Mass file modification detected | 27 files modified in 10s
+2026-03-05 21:05:11,699 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_005.txt
+2026-03-05 21:05:11,700 | WARNING | ALERT [HIGH] | Mass file modification detected | 27 files modified in 10s
+2026-03-05 21:05:11,702 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,702 | WARNING | ALERT [HIGH] | Mass file modification detected | 28 files modified in 10s
+2026-03-05 21:05:11,704 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_005.txt
+2026-03-05 21:05:11,706 | WARNING | ALERT [HIGH] | Mass file modification detected | 29 files modified in 10s
+2026-03-05 21:05:11,709 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_006.xlsx
+2026-03-05 21:05:11,710 | WARNING | ALERT [HIGH] | Mass file modification detected | 29 files modified in 10s
+2026-03-05 21:05:11,712 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_006.xlsx
+2026-03-05 21:05:11,712 | WARNING | ALERT [HIGH] | Mass file modification detected | 30 files modified in 10s
+2026-03-05 21:05:11,715 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,716 | WARNING | ALERT [HIGH] | Mass file modification detected | 31 files modified in 10s
+2026-03-05 21:05:11,718 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_007.xlsx
+2026-03-05 21:05:11,719 | WARNING | ALERT [HIGH] | Mass file modification detected | 31 files modified in 10s
+2026-03-05 21:05:11,722 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,723 | WARNING | ALERT [HIGH] | Mass file modification detected | 32 files modified in 10s
+2026-03-05 21:05:11,726 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_007.xlsx
+2026-03-05 21:05:11,726 | WARNING | ALERT [HIGH] | Mass file modification detected | 33 files modified in 10s
+2026-03-05 21:05:11,728 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_008.jpg
+2026-03-05 21:05:11,729 | WARNING | ALERT [HIGH] | Mass file modification detected | 33 files modified in 10s
+2026-03-05 21:05:11,731 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_008.jpg
+2026-03-05 21:05:11,732 | WARNING | ALERT [HIGH] | Mass file modification detected | 34 files modified in 10s
+2026-03-05 21:05:11,733 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,734 | WARNING | ALERT [HIGH] | Mass file modification detected | 35 files modified in 10s
+2026-03-05 21:05:11,735 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_009.docx
+2026-03-05 21:05:11,736 | WARNING | ALERT [HIGH] | Mass file modification detected | 35 files modified in 10s
+2026-03-05 21:05:11,737 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,738 | WARNING | ALERT [HIGH] | Mass file modification detected | 36 files modified in 10s
+2026-03-05 21:05:11,741 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_009.docx
+2026-03-05 21:05:11,742 | WARNING | ALERT [HIGH] | Mass file modification detected | 37 files modified in 10s
+2026-03-05 21:05:11,744 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_010.jpg
+2026-03-05 21:05:11,744 | WARNING | ALERT [HIGH] | Mass file modification detected | 37 files modified in 10s
+2026-03-05 21:05:11,746 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_010.jpg
+2026-03-05 21:05:11,747 | WARNING | ALERT [HIGH] | Mass file modification detected | 38 files modified in 10s
+2026-03-05 21:05:11,748 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,749 | WARNING | ALERT [HIGH] | Mass file modification detected | 39 files modified in 10s
+2026-03-05 21:05:11,751 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_011.txt
+2026-03-05 21:05:11,752 | WARNING | ALERT [HIGH] | Mass file modification detected | 39 files modified in 10s
+2026-03-05 21:05:11,753 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,754 | WARNING | ALERT [HIGH] | Mass file modification detected | 40 files modified in 10s
+2026-03-05 21:05:11,757 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_011.txt
+2026-03-05 21:05:11,758 | WARNING | ALERT [HIGH] | Mass file modification detected | 41 files modified in 10s
+2026-03-05 21:05:11,759 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_012.docx
+2026-03-05 21:05:11,760 | WARNING | ALERT [HIGH] | Mass file modification detected | 41 files modified in 10s
+2026-03-05 21:05:11,761 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 15 files created in 10s
+2026-03-05 21:05:11,763 | WARNING | ALERT | Level=MEDIUM | Reason=Mass file creation detected | Details=15 files created in 10s
+2026-03-05 21:05:11,764 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_012.docx
+2026-03-05 21:05:11,764 | WARNING | ALERT [HIGH] | Mass file modification detected | 42 files modified in 10s
+2026-03-05 21:05:11,766 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 15 files created in 10s
+2026-03-05 21:05:11,766 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,767 | WARNING | ALERT [HIGH] | Mass file modification detected | 43 files modified in 10s
+2026-03-05 21:05:11,768 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 15 files created in 10s
+2026-03-05 21:05:11,769 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_013.txt
+2026-03-05 21:05:11,769 | WARNING | ALERT [HIGH] | Mass file modification detected | 43 files modified in 10s
+2026-03-05 21:05:11,771 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 16 files created in 10s
+2026-03-05 21:05:11,772 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,773 | WARNING | ALERT [HIGH] | Mass file modification detected | 44 files modified in 10s
+2026-03-05 21:05:11,775 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 16 files created in 10s
+2026-03-05 21:05:11,776 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_013.txt
+2026-03-05 21:05:11,777 | WARNING | ALERT [HIGH] | Mass file modification detected | 45 files modified in 10s
+2026-03-05 21:05:11,778 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 16 files created in 10s
+2026-03-05 21:05:11,779 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_014.pdf
+2026-03-05 21:05:11,780 | WARNING | ALERT [HIGH] | Mass file modification detected | 45 files modified in 10s
+2026-03-05 21:05:11,781 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 17 files created in 10s
+2026-03-05 21:05:11,782 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_014.pdf
+2026-03-05 21:05:11,783 | WARNING | ALERT [HIGH] | Mass file modification detected | 46 files modified in 10s
+2026-03-05 21:05:11,784 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 17 files created in 10s
+2026-03-05 21:05:11,785 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,786 | WARNING | ALERT [HIGH] | Mass file modification detected | 47 files modified in 10s
+2026-03-05 21:05:11,788 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 17 files created in 10s
+2026-03-05 21:05:11,790 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_015.jpg
+2026-03-05 21:05:11,791 | WARNING | ALERT [HIGH] | Mass file modification detected | 47 files modified in 10s
+2026-03-05 21:05:11,793 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 18 files created in 10s
+2026-03-05 21:05:11,793 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,794 | WARNING | ALERT [HIGH] | Mass file modification detected | 48 files modified in 10s
+2026-03-05 21:05:11,796 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 18 files created in 10s
+2026-03-05 21:05:11,797 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_015.jpg
+2026-03-05 21:05:11,798 | WARNING | ALERT [HIGH] | Mass file modification detected | 49 files modified in 10s
+2026-03-05 21:05:11,799 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 18 files created in 10s
+2026-03-05 21:05:11,800 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_016.pdf
+2026-03-05 21:05:11,801 | WARNING | ALERT [HIGH] | Mass file modification detected | 49 files modified in 10s
+2026-03-05 21:05:11,804 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 19 files created in 10s
+2026-03-05 21:05:11,805 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_016.pdf
+2026-03-05 21:05:11,807 | WARNING | ALERT [HIGH] | Mass file modification detected | 50 files modified in 10s
+2026-03-05 21:05:11,808 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 19 files created in 10s
+2026-03-05 21:05:11,809 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,810 | WARNING | ALERT [HIGH] | Mass file modification detected | 51 files modified in 10s
+2026-03-05 21:05:11,811 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 19 files created in 10s
+2026-03-05 21:05:11,812 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_017.jpg
+2026-03-05 21:05:11,814 | WARNING | ALERT [HIGH] | Mass file modification detected | 51 files modified in 10s
+2026-03-05 21:05:11,817 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 20 files created in 10s
+2026-03-05 21:05:11,818 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_017.jpg
+2026-03-05 21:05:11,820 | WARNING | ALERT [HIGH] | Mass file modification detected | 52 files modified in 10s
+2026-03-05 21:05:11,824 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 20 files created in 10s
+2026-03-05 21:05:11,826 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,827 | WARNING | ALERT [HIGH] | Mass file modification detected | 53 files modified in 10s
+2026-03-05 21:05:11,830 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 20 files created in 10s
+2026-03-05 21:05:11,832 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_018.xlsx
+2026-03-05 21:05:11,832 | WARNING | ALERT [HIGH] | Mass file modification detected | 53 files modified in 10s
+2026-03-05 21:05:11,834 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 21 files created in 10s
+2026-03-05 21:05:11,835 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,836 | WARNING | ALERT [HIGH] | Mass file modification detected | 54 files modified in 10s
+2026-03-05 21:05:11,840 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 21 files created in 10s
+2026-03-05 21:05:11,844 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_018.xlsx
+2026-03-05 21:05:11,845 | WARNING | ALERT [HIGH] | Mass file modification detected | 55 files modified in 10s
+2026-03-05 21:05:11,846 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 21 files created in 10s
+2026-03-05 21:05:11,847 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_019.jpg
+2026-03-05 21:05:11,847 | WARNING | ALERT [HIGH] | Mass file modification detected | 55 files modified in 10s
+2026-03-05 21:05:11,848 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 22 files created in 10s
+2026-03-05 21:05:11,848 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_019.jpg
+2026-03-05 21:05:11,849 | WARNING | ALERT [HIGH] | Mass file modification detected | 56 files modified in 10s
+2026-03-05 21:05:11,850 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 22 files created in 10s
+2026-03-05 21:05:11,851 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,851 | WARNING | ALERT [HIGH] | Mass file modification detected | 57 files modified in 10s
+2026-03-05 21:05:11,852 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 22 files created in 10s
+2026-03-05 21:05:11,853 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_020.xlsx
+2026-03-05 21:05:11,853 | WARNING | ALERT [HIGH] | Mass file modification detected | 57 files modified in 10s
+2026-03-05 21:05:11,855 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 23 files created in 10s
+2026-03-05 21:05:11,856 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,858 | WARNING | ALERT [HIGH] | Mass file modification detected | 58 files modified in 10s
+2026-03-05 21:05:11,860 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 23 files created in 10s
+2026-03-05 21:05:11,861 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_020.xlsx
+2026-03-05 21:05:11,861 | WARNING | ALERT [HIGH] | Mass file modification detected | 59 files modified in 10s
+2026-03-05 21:05:11,863 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 23 files created in 10s
+2026-03-05 21:05:11,863 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_021.docx
+2026-03-05 21:05:11,864 | WARNING | ALERT [HIGH] | Mass file modification detected | 59 files modified in 10s
+2026-03-05 21:05:11,865 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 24 files created in 10s
+2026-03-05 21:05:11,866 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_021.docx
+2026-03-05 21:05:11,866 | WARNING | ALERT [HIGH] | Mass file modification detected | 60 files modified in 10s
+2026-03-05 21:05:11,867 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 24 files created in 10s
+2026-03-05 21:05:11,867 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,868 | WARNING | ALERT [HIGH] | Mass file modification detected | 61 files modified in 10s
+2026-03-05 21:05:11,869 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 24 files created in 10s
+2026-03-05 21:05:11,870 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_022.jpg
+2026-03-05 21:05:11,870 | WARNING | ALERT [HIGH] | Mass file modification detected | 61 files modified in 10s
+2026-03-05 21:05:11,872 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 25 files created in 10s
+2026-03-05 21:05:11,873 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,874 | WARNING | ALERT [HIGH] | Mass file modification detected | 62 files modified in 10s
+2026-03-05 21:05:11,876 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 25 files created in 10s
+2026-03-05 21:05:11,877 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_022.jpg
+2026-03-05 21:05:11,877 | WARNING | ALERT [HIGH] | Mass file modification detected | 63 files modified in 10s
+2026-03-05 21:05:11,878 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 25 files created in 10s
+2026-03-05 21:05:11,879 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_023.xlsx
+2026-03-05 21:05:11,880 | WARNING | ALERT [HIGH] | Mass file modification detected | 63 files modified in 10s
+2026-03-05 21:05:11,881 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 26 files created in 10s
+2026-03-05 21:05:11,881 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_023.xlsx
+2026-03-05 21:05:11,881 | WARNING | ALERT [HIGH] | Mass file modification detected | 64 files modified in 10s
+2026-03-05 21:05:11,883 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 26 files created in 10s
+2026-03-05 21:05:11,883 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,884 | WARNING | ALERT [HIGH] | Mass file modification detected | 65 files modified in 10s
+2026-03-05 21:05:11,885 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 26 files created in 10s
+2026-03-05 21:05:11,886 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_024.pdf
+2026-03-05 21:05:11,886 | WARNING | ALERT [HIGH] | Mass file modification detected | 65 files modified in 10s
+2026-03-05 21:05:11,889 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:11,890 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:11,891 | WARNING | ALERT [HIGH] | Mass file modification detected | 66 files modified in 10s
+2026-03-05 21:05:11,893 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:11,894 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_024.pdf
+2026-03-05 21:05:11,894 | WARNING | ALERT [HIGH] | Mass file modification detected | 67 files modified in 10s
+2026-03-05 21:05:11,895 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,728 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.docx.enc
+2026-03-05 21:05:12,729 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.docx.enc
+2026-03-05 21:05:12,731 | WARNING | ALERT | Level=HIGH | Reason=Suspicious ransomware extension detected | Details=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.docx.enc
+2026-03-05 21:05:12,733 | WARNING | ALERT [HIGH] | Mass file modification detected | 68 files modified in 10s
+2026-03-05 21:05:12,735 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,736 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.docx.enc
+2026-03-05 21:05:12,737 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.docx.enc
+2026-03-05 21:05:12,741 | WARNING | ALERT [HIGH] | Mass file modification detected | 69 files modified in 10s
+2026-03-05 21:05:12,743 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,762 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg
+2026-03-05 21:05:12,763 | WARNING | ALERT [HIGH] | Mass file modification detected | 70 files modified in 10s
+2026-03-05 21:05:12,765 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,766 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg
+2026-03-05 21:05:12,766 | WARNING | ALERT [HIGH] | Mass file modification detected | 71 files modified in 10s
+2026-03-05 21:05:12,767 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,797 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.docx.enc
+2026-03-05 21:05:12,798 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.docx.enc
+2026-03-05 21:05:12,799 | WARNING | ALERT [HIGH] | Mass file modification detected | 72 files modified in 10s
+2026-03-05 21:05:12,801 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,802 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.docx.enc
+2026-03-05 21:05:12,802 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.docx.enc
+2026-03-05 21:05:12,804 | WARNING | ALERT [HIGH] | Mass file modification detected | 73 files modified in 10s
+2026-03-05 21:05:12,806 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,829 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.txt
+2026-03-05 21:05:12,830 | WARNING | ALERT [HIGH] | Mass file modification detected | 74 files modified in 10s
+2026-03-05 21:05:12,832 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,832 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.txt
+2026-03-05 21:05:12,833 | WARNING | ALERT [HIGH] | Mass file modification detected | 75 files modified in 10s
+2026-03-05 21:05:12,834 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,866 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.jpg.enc
+2026-03-05 21:05:12,869 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.jpg.enc
+2026-03-05 21:05:12,880 | WARNING | ALERT [HIGH] | Mass file modification detected | 76 files modified in 10s
+2026-03-05 21:05:12,886 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,887 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.jpg.enc
+2026-03-05 21:05:12,889 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.jpg.enc
+2026-03-05 21:05:12,897 | WARNING | ALERT [HIGH] | Mass file modification detected | 77 files modified in 10s
+2026-03-05 21:05:12,899 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,903 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.xlsx
+2026-03-05 21:05:12,903 | WARNING | ALERT [HIGH] | Mass file modification detected | 78 files modified in 10s
+2026-03-05 21:05:12,906 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,908 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.xlsx
+2026-03-05 21:05:12,909 | WARNING | ALERT [HIGH] | Mass file modification detected | 79 files modified in 10s
+2026-03-05 21:05:12,912 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,936 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.txt.enc
+2026-03-05 21:05:12,938 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.txt.enc
+2026-03-05 21:05:12,940 | WARNING | ALERT [HIGH] | Mass file modification detected | 80 files modified in 10s
+2026-03-05 21:05:12,942 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,943 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.txt.enc
+2026-03-05 21:05:12,943 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.txt.enc
+2026-03-05 21:05:12,944 | WARNING | ALERT [HIGH] | Mass file modification detected | 81 files modified in 10s
+2026-03-05 21:05:12,946 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,970 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.xlsx
+2026-03-05 21:05:12,971 | WARNING | ALERT [HIGH] | Mass file modification detected | 82 files modified in 10s
+2026-03-05 21:05:12,974 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:12,975 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.xlsx
+2026-03-05 21:05:12,976 | WARNING | ALERT [HIGH] | Mass file modification detected | 83 files modified in 10s
+2026-03-05 21:05:12,977 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,002 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_004.txt
+2026-03-05 21:05:13,003 | WARNING | ALERT [HIGH] | Mass file modification detected | 84 files modified in 10s
+2026-03-05 21:05:13,005 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,007 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_004.txt
+2026-03-05 21:05:13,007 | WARNING | ALERT [HIGH] | Mass file modification detected | 85 files modified in 10s
+2026-03-05 21:05:13,009 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,035 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_004.txt.enc
+2026-03-05 21:05:13,036 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_004.txt.enc
+2026-03-05 21:05:13,038 | WARNING | ALERT [HIGH] | Mass file modification detected | 86 files modified in 10s
+2026-03-05 21:05:13,041 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,042 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_004.txt.enc
+2026-03-05 21:05:13,042 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_004.txt.enc
+2026-03-05 21:05:13,044 | WARNING | ALERT [HIGH] | Mass file modification detected | 87 files modified in 10s
+2026-03-05 21:05:13,045 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,068 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_005.docx.enc
+2026-03-05 21:05:13,068 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_005.docx.enc
+2026-03-05 21:05:13,070 | WARNING | ALERT [HIGH] | Mass file modification detected | 88 files modified in 10s
+2026-03-05 21:05:13,073 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,074 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_005.docx.enc
+2026-03-05 21:05:13,075 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_005.docx.enc
+2026-03-05 21:05:13,077 | WARNING | ALERT [HIGH] | Mass file modification detected | 89 files modified in 10s
+2026-03-05 21:05:13,078 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,101 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_005.txt
+2026-03-05 21:05:13,102 | WARNING | ALERT [HIGH] | Mass file modification detected | 90 files modified in 10s
+2026-03-05 21:05:13,104 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,106 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_005.txt
+2026-03-05 21:05:13,107 | WARNING | ALERT [HIGH] | Mass file modification detected | 91 files modified in 10s
+2026-03-05 21:05:13,108 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,133 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_006.jpg.enc
+2026-03-05 21:05:13,134 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_006.jpg.enc
+2026-03-05 21:05:13,135 | WARNING | ALERT [HIGH] | Mass file modification detected | 92 files modified in 10s
+2026-03-05 21:05:13,136 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,138 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_006.jpg.enc
+2026-03-05 21:05:13,138 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_006.jpg.enc
+2026-03-05 21:05:13,140 | WARNING | ALERT [HIGH] | Mass file modification detected | 93 files modified in 10s
+2026-03-05 21:05:13,142 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,165 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_006.xlsx
+2026-03-05 21:05:13,166 | WARNING | ALERT [HIGH] | Mass file modification detected | 94 files modified in 10s
+2026-03-05 21:05:13,167 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,168 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_006.xlsx
+2026-03-05 21:05:13,168 | WARNING | ALERT [HIGH] | Mass file modification detected | 95 files modified in 10s
+2026-03-05 21:05:13,169 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,210 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_007.docx.enc
+2026-03-05 21:05:13,210 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_007.docx.enc
+2026-03-05 21:05:13,212 | WARNING | ALERT [HIGH] | Mass file modification detected | 96 files modified in 10s
+2026-03-05 21:05:13,214 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,214 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_007.docx.enc
+2026-03-05 21:05:13,215 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_007.docx.enc
+2026-03-05 21:05:13,216 | WARNING | ALERT [HIGH] | Mass file modification detected | 97 files modified in 10s
+2026-03-05 21:05:13,217 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 27 files created in 10s
+2026-03-05 21:05:13,230 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\TH5Y8K074IKOQ22DMO8E.temp
+2026-03-05 21:05:13,231 | WARNING | ALERT [HIGH] | Mass file modification detected | 97 files modified in 10s
+2026-03-05 21:05:13,233 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 28 files created in 10s
+2026-03-05 21:05:13,234 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\TH5Y8K074IKOQ22DMO8E.temp
+2026-03-05 21:05:13,234 | WARNING | ALERT [HIGH] | Mass file modification detected | 98 files modified in 10s
+2026-03-05 21:05:13,236 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 28 files created in 10s
+2026-03-05 21:05:13,236 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:13,238 | WARNING | ALERT [HIGH] | Mass file modification detected | 99 files modified in 10s
+2026-03-05 21:05:13,240 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 28 files created in 10s
+2026-03-05 21:05:13,241 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4334c042.TMP
+2026-03-05 21:05:13,242 | WARNING | ALERT [HIGH] | Mass file modification detected | 99 files modified in 10s
+2026-03-05 21:05:13,244 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,245 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\TH5Y8K074IKOQ22DMO8E.temp
+2026-03-05 21:05:13,246 | WARNING | ALERT [HIGH] | Mass file modification detected | 100 files modified in 10s
+2026-03-05 21:05:13,247 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,248 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:13,248 | WARNING | ALERT [HIGH] | Mass file modification detected | 101 files modified in 10s
+2026-03-05 21:05:13,250 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,251 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4334c042.TMP
+2026-03-05 21:05:13,251 | WARNING | ALERT [HIGH] | Mass file modification detected | 101 files modified in 10s
+2026-03-05 21:05:13,252 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,253 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms | dest=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4334c042.TMP
+2026-03-05 21:05:13,253 | WARNING | ALERT [HIGH] | Mass file modification detected | 101 files modified in 10s
+2026-03-05 21:05:13,255 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,257 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:13,258 | WARNING | ALERT [HIGH] | Mass file modification detected | 102 files modified in 10s
+2026-03-05 21:05:13,260 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,261 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\TH5Y8K074IKOQ22DMO8E.temp | dest=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms
+2026-03-05 21:05:13,262 | WARNING | ALERT [HIGH] | Mass file modification detected | 102 files modified in 10s
+2026-03-05 21:05:13,263 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,264 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:13,264 | WARNING | ALERT [HIGH] | Mass file modification detected | 103 files modified in 10s
+2026-03-05 21:05:13,265 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,266 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4334c042.TMP
+2026-03-05 21:05:13,267 | WARNING | ALERT [HIGH] | Mass file modification detected | 104 files modified in 10s
+2026-03-05 21:05:13,268 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,269 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms
+2026-03-05 21:05:13,269 | WARNING | ALERT [HIGH] | Mass file modification detected | 105 files modified in 10s
+2026-03-05 21:05:13,271 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,273 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4334c042.TMP
+2026-03-05 21:05:13,274 | WARNING | ALERT [HIGH] | Mass file modification detected | 105 files modified in 10s
+2026-03-05 21:05:13,275 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,276 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-05 21:05:13,277 | WARNING | ALERT [HIGH] | Mass file modification detected | 106 files modified in 10s
+2026-03-05 21:05:13,278 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,280 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_007.xlsx
+2026-03-05 21:05:13,280 | WARNING | ALERT [HIGH] | Mass file modification detected | 107 files modified in 10s
+2026-03-05 21:05:13,282 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,282 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_008.jpg
+2026-03-05 21:05:13,283 | WARNING | ALERT [HIGH] | Mass file modification detected | 108 files modified in 10s
+2026-03-05 21:05:13,284 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,311 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_008.xlsx.enc
+2026-03-05 21:05:13,311 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_008.xlsx.enc
+2026-03-05 21:05:13,312 | WARNING | ALERT [HIGH] | Mass file modification detected | 109 files modified in 10s
+2026-03-05 21:05:13,314 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,314 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_008.xlsx.enc
+2026-03-05 21:05:13,315 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_008.xlsx.enc
+2026-03-05 21:05:13,316 | WARNING | ALERT [HIGH] | Mass file modification detected | 110 files modified in 10s
+2026-03-05 21:05:13,317 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,343 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_009.docx
+2026-03-05 21:05:13,344 | WARNING | ALERT [HIGH] | Mass file modification detected | 111 files modified in 10s
+2026-03-05 21:05:13,345 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,346 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_009.docx
+2026-03-05 21:05:13,346 | WARNING | ALERT [HIGH] | Mass file modification detected | 112 files modified in 10s
+2026-03-05 21:05:13,348 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,376 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_009.pdf.enc
+2026-03-05 21:05:13,377 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_009.pdf.enc
+2026-03-05 21:05:13,379 | WARNING | ALERT [HIGH] | Mass file modification detected | 113 files modified in 10s
+2026-03-05 21:05:13,381 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,382 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_009.pdf.enc
+2026-03-05 21:05:13,383 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_009.pdf.enc
+2026-03-05 21:05:13,384 | WARNING | ALERT [HIGH] | Mass file modification detected | 114 files modified in 10s
+2026-03-05 21:05:13,385 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,409 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_010.jpg
+2026-03-05 21:05:13,410 | WARNING | ALERT [HIGH] | Mass file modification detected | 115 files modified in 10s
+2026-03-05 21:05:13,411 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,412 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_010.jpg
+2026-03-05 21:05:13,413 | WARNING | ALERT [HIGH] | Mass file modification detected | 116 files modified in 10s
+2026-03-05 21:05:13,414 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,442 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_010.pdf.enc
+2026-03-05 21:05:13,443 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_010.pdf.enc
+2026-03-05 21:05:13,445 | WARNING | ALERT [HIGH] | Mass file modification detected | 117 files modified in 10s
+2026-03-05 21:05:13,447 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,448 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\AD2F1837.OMENCommandCenter_v10z8vjag6ke6\LocalCache\Local\HPOMEN\GA4_AnalyticsBG_20260305.log
+2026-03-05 21:05:13,449 | WARNING | ALERT [HIGH] | Mass file modification detected | 118 files modified in 10s
+2026-03-05 21:05:13,450 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,451 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_010.pdf.enc
+2026-03-05 21:05:13,452 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_010.pdf.enc
+2026-03-05 21:05:13,453 | WARNING | ALERT [HIGH] | Mass file modification detected | 119 files modified in 10s
+2026-03-05 21:05:13,456 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,476 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_011.txt
+2026-03-05 21:05:13,476 | WARNING | ALERT [HIGH] | Mass file modification detected | 120 files modified in 10s
+2026-03-05 21:05:13,478 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,480 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_011.txt
+2026-03-05 21:05:13,480 | WARNING | ALERT [HIGH] | Mass file modification detected | 121 files modified in 10s
+2026-03-05 21:05:13,483 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,509 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_011.xlsx.enc
+2026-03-05 21:05:13,509 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_011.xlsx.enc
+2026-03-05 21:05:13,512 | WARNING | ALERT [HIGH] | Mass file modification detected | 122 files modified in 10s
+2026-03-05 21:05:13,514 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,515 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_011.xlsx.enc
+2026-03-05 21:05:13,515 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_011.xlsx.enc
+2026-03-05 21:05:13,516 | WARNING | ALERT [HIGH] | Mass file modification detected | 123 files modified in 10s
+2026-03-05 21:05:13,518 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,542 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_012.docx
+2026-03-05 21:05:13,543 | WARNING | ALERT [HIGH] | Mass file modification detected | 124 files modified in 10s
+2026-03-05 21:05:13,545 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,546 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_012.docx
+2026-03-05 21:05:13,546 | WARNING | ALERT [HIGH] | Mass file modification detected | 125 files modified in 10s
+2026-03-05 21:05:13,548 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,576 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_012.xlsx.enc
+2026-03-05 21:05:13,576 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_012.xlsx.enc
+2026-03-05 21:05:13,578 | WARNING | ALERT [HIGH] | Mass file modification detected | 126 files modified in 10s
+2026-03-05 21:05:13,580 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,581 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_012.xlsx.enc
+2026-03-05 21:05:13,582 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_012.xlsx.enc
+2026-03-05 21:05:13,584 | WARNING | ALERT [HIGH] | Mass file modification detected | 127 files modified in 10s
+2026-03-05 21:05:13,586 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,599 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Temp
+2026-03-05 21:05:13,600 | WARNING | ALERT [HIGH] | Mass file modification detected | 128 files modified in 10s
+2026-03-05 21:05:13,601 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,602 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 165 events in 10s
+2026-03-05 21:05:13,608 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_013.jpg.enc
+2026-03-05 21:05:13,610 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_013.jpg.enc
+2026-03-05 21:05:13,611 | WARNING | ALERT [HIGH] | Mass file modification detected | 129 files modified in 10s
+2026-03-05 21:05:13,613 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,613 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 166 events in 10s
+2026-03-05 21:05:13,614 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_013.jpg.enc
+2026-03-05 21:05:13,615 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_013.jpg.enc
+2026-03-05 21:05:13,616 | WARNING | ALERT [HIGH] | Mass file modification detected | 130 files modified in 10s
+2026-03-05 21:05:13,617 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,618 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 167 events in 10s
+2026-03-05 21:05:13,642 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_013.txt
+2026-03-05 21:05:13,643 | WARNING | ALERT [HIGH] | Mass file modification detected | 131 files modified in 10s
+2026-03-05 21:05:13,644 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,645 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 168 events in 10s
+2026-03-05 21:05:13,646 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_013.txt
+2026-03-05 21:05:13,646 | WARNING | ALERT [HIGH] | Mass file modification detected | 132 files modified in 10s
+2026-03-05 21:05:13,647 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,648 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 169 events in 10s
+2026-03-05 21:05:13,675 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_014.pdf
+2026-03-05 21:05:13,676 | WARNING | ALERT [HIGH] | Mass file modification detected | 133 files modified in 10s
+2026-03-05 21:05:13,677 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,677 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 170 events in 10s
+2026-03-05 21:05:13,678 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_014.pdf
+2026-03-05 21:05:13,679 | WARNING | ALERT [HIGH] | Mass file modification detected | 134 files modified in 10s
+2026-03-05 21:05:13,680 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,681 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 171 events in 10s
+2026-03-05 21:05:13,708 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_014.txt.enc
+2026-03-05 21:05:13,709 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_014.txt.enc
+2026-03-05 21:05:13,710 | WARNING | ALERT [HIGH] | Mass file modification detected | 135 files modified in 10s
+2026-03-05 21:05:13,712 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,712 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 172 events in 10s
+2026-03-05 21:05:13,713 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_014.txt.enc
+2026-03-05 21:05:13,713 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_014.txt.enc
+2026-03-05 21:05:13,715 | WARNING | ALERT [HIGH] | Mass file modification detected | 136 files modified in 10s
+2026-03-05 21:05:13,716 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,717 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 173 events in 10s
+2026-03-05 21:05:13,742 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_015.jpg
+2026-03-05 21:05:13,742 | WARNING | ALERT [HIGH] | Mass file modification detected | 137 files modified in 10s
+2026-03-05 21:05:13,744 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,745 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 174 events in 10s
+2026-03-05 21:05:13,746 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_015.jpg
+2026-03-05 21:05:13,746 | WARNING | ALERT [HIGH] | Mass file modification detected | 138 files modified in 10s
+2026-03-05 21:05:13,747 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,748 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 175 events in 10s
+2026-03-05 21:05:13,775 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_015.txt.enc
+2026-03-05 21:05:13,776 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_015.txt.enc
+2026-03-05 21:05:13,777 | WARNING | ALERT [HIGH] | Mass file modification detected | 139 files modified in 10s
+2026-03-05 21:05:13,779 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,780 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 176 events in 10s
+2026-03-05 21:05:13,781 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_015.txt.enc
+2026-03-05 21:05:13,781 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_015.txt.enc
+2026-03-05 21:05:13,783 | WARNING | ALERT [HIGH] | Mass file modification detected | 140 files modified in 10s
+2026-03-05 21:05:13,784 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,786 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 177 events in 10s
+2026-03-05 21:05:13,809 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_016.pdf
+2026-03-05 21:05:13,810 | WARNING | ALERT [HIGH] | Mass file modification detected | 141 files modified in 10s
+2026-03-05 21:05:13,811 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,812 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 178 events in 10s
+2026-03-05 21:05:13,813 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_016.pdf
+2026-03-05 21:05:13,814 | WARNING | ALERT [HIGH] | Mass file modification detected | 142 files modified in 10s
+2026-03-05 21:05:13,815 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,816 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 179 events in 10s
+2026-03-05 21:05:13,842 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_016.pdf.enc
+2026-03-05 21:05:13,843 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_016.pdf.enc
+2026-03-05 21:05:13,845 | WARNING | ALERT [HIGH] | Mass file modification detected | 143 files modified in 10s
+2026-03-05 21:05:13,846 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,847 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 180 events in 10s
+2026-03-05 21:05:13,848 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_016.pdf.enc
+2026-03-05 21:05:13,849 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_016.pdf.enc
+2026-03-05 21:05:13,851 | WARNING | ALERT [HIGH] | Mass file modification detected | 144 files modified in 10s
+2026-03-05 21:05:13,853 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 29 files created in 10s
+2026-03-05 21:05:13,854 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 181 events in 10s
+2026-03-05 21:05:13,855 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Local\Temp\NotifyIconGeneratedAumid_1032066418134711872.png
+2026-03-05 21:05:13,856 | WARNING | ALERT [HIGH] | Mass file modification detected | 144 files modified in 10s
+2026-03-05 21:05:13,857 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:13,858 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 182 events in 10s
+2026-03-05 21:05:13,859 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Temp\NotifyIconGeneratedAumid_1032066418134711872.png
+2026-03-05 21:05:13,859 | WARNING | ALERT [HIGH] | Mass file modification detected | 145 files modified in 10s
+2026-03-05 21:05:13,861 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:13,861 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 183 events in 10s
+2026-03-05 21:05:13,875 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_017.jpg
+2026-03-05 21:05:13,876 | WARNING | ALERT [HIGH] | Mass file modification detected | 146 files modified in 10s
+2026-03-05 21:05:13,877 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:13,878 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 184 events in 10s
+2026-03-05 21:05:13,879 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_017.jpg
+2026-03-05 21:05:13,880 | WARNING | ALERT [HIGH] | Mass file modification detected | 147 files modified in 10s
+2026-03-05 21:05:13,881 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:13,881 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 185 events in 10s
+2026-03-05 21:05:13,909 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_017.jpg.enc
+2026-03-05 21:05:13,910 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_017.jpg.enc
+2026-03-05 21:05:13,911 | WARNING | ALERT [HIGH] | Mass file modification detected | 148 files modified in 10s
+2026-03-05 21:05:13,913 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:13,915 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 186 events in 10s
+2026-03-05 21:05:13,916 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_017.jpg.enc
+2026-03-05 21:05:13,916 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_017.jpg.enc
+2026-03-05 21:05:13,918 | WARNING | ALERT [HIGH] | Mass file modification detected | 149 files modified in 10s
+2026-03-05 21:05:13,919 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:13,920 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 187 events in 10s
+2026-03-05 21:05:13,942 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_018.pdf.enc
+2026-03-05 21:05:13,943 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_018.pdf.enc
+2026-03-05 21:05:13,945 | WARNING | ALERT [HIGH] | Mass file modification detected | 150 files modified in 10s
+2026-03-05 21:05:13,946 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:13,946 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 188 events in 10s
+2026-03-05 21:05:13,947 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_018.pdf.enc
+2026-03-05 21:05:13,948 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_018.pdf.enc
+2026-03-05 21:05:13,949 | WARNING | ALERT [HIGH] | Mass file modification detected | 151 files modified in 10s
+2026-03-05 21:05:13,950 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:13,951 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 189 events in 10s
+2026-03-05 21:05:13,976 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_018.xlsx
+2026-03-05 21:05:13,977 | WARNING | ALERT [HIGH] | Mass file modification detected | 152 files modified in 10s
+2026-03-05 21:05:13,979 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:13,979 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 190 events in 10s
+2026-03-05 21:05:13,980 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_018.xlsx
+2026-03-05 21:05:13,981 | WARNING | ALERT [HIGH] | Mass file modification detected | 153 files modified in 10s
+2026-03-05 21:05:13,982 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:13,982 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 191 events in 10s
+2026-03-05 21:05:14,009 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_019.jpg
+2026-03-05 21:05:14,011 | WARNING | ALERT [HIGH] | Mass file modification detected | 154 files modified in 10s
+2026-03-05 21:05:14,012 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,013 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 192 events in 10s
+2026-03-05 21:05:14,014 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_019.jpg
+2026-03-05 21:05:14,015 | WARNING | ALERT [HIGH] | Mass file modification detected | 155 files modified in 10s
+2026-03-05 21:05:14,016 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,017 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 193 events in 10s
+2026-03-05 21:05:14,042 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_019.xlsx.enc
+2026-03-05 21:05:14,043 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_019.xlsx.enc
+2026-03-05 21:05:14,044 | WARNING | ALERT [HIGH] | Mass file modification detected | 156 files modified in 10s
+2026-03-05 21:05:14,047 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,048 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 194 events in 10s
+2026-03-05 21:05:14,048 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_019.xlsx.enc
+2026-03-05 21:05:14,049 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_019.xlsx.enc
+2026-03-05 21:05:14,051 | WARNING | ALERT [HIGH] | Mass file modification detected | 157 files modified in 10s
+2026-03-05 21:05:14,053 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,054 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 195 events in 10s
+2026-03-05 21:05:14,075 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_020.pdf.enc
+2026-03-05 21:05:14,076 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_020.pdf.enc
+2026-03-05 21:05:14,077 | WARNING | ALERT [HIGH] | Mass file modification detected | 158 files modified in 10s
+2026-03-05 21:05:14,079 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,080 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 196 events in 10s
+2026-03-05 21:05:14,081 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_020.pdf.enc
+2026-03-05 21:05:14,082 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_020.pdf.enc
+2026-03-05 21:05:14,083 | WARNING | ALERT [HIGH] | Mass file modification detected | 159 files modified in 10s
+2026-03-05 21:05:14,085 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,086 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 197 events in 10s
+2026-03-05 21:05:14,108 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_020.xlsx
+2026-03-05 21:05:14,109 | WARNING | ALERT [HIGH] | Mass file modification detected | 160 files modified in 10s
+2026-03-05 21:05:14,110 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,111 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 198 events in 10s
+2026-03-05 21:05:14,111 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_020.xlsx
+2026-03-05 21:05:14,112 | WARNING | ALERT [HIGH] | Mass file modification detected | 161 files modified in 10s
+2026-03-05 21:05:14,113 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,114 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 199 events in 10s
+2026-03-05 21:05:14,141 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_021.docx
+2026-03-05 21:05:14,142 | WARNING | ALERT [HIGH] | Mass file modification detected | 162 files modified in 10s
+2026-03-05 21:05:14,143 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,144 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 200 events in 10s
+2026-03-05 21:05:14,145 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_021.docx
+2026-03-05 21:05:14,145 | WARNING | ALERT [HIGH] | Mass file modification detected | 163 files modified in 10s
+2026-03-05 21:05:14,147 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,147 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 201 events in 10s
+2026-03-05 21:05:14,174 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_021.jpg.enc
+2026-03-05 21:05:14,175 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_021.jpg.enc
+2026-03-05 21:05:14,177 | WARNING | ALERT [HIGH] | Mass file modification detected | 164 files modified in 10s
+2026-03-05 21:05:14,178 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,179 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 202 events in 10s
+2026-03-05 21:05:14,180 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_021.jpg.enc
+2026-03-05 21:05:14,181 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_021.jpg.enc
+2026-03-05 21:05:14,182 | WARNING | ALERT [HIGH] | Mass file modification detected | 165 files modified in 10s
+2026-03-05 21:05:14,183 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,184 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 203 events in 10s
+2026-03-05 21:05:14,207 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_022.jpg
+2026-03-05 21:05:14,208 | WARNING | ALERT [HIGH] | Mass file modification detected | 166 files modified in 10s
+2026-03-05 21:05:14,210 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,211 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 204 events in 10s
+2026-03-05 21:05:14,212 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_022.jpg
+2026-03-05 21:05:14,213 | WARNING | ALERT [HIGH] | Mass file modification detected | 167 files modified in 10s
+2026-03-05 21:05:14,215 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,216 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 205 events in 10s
+2026-03-05 21:05:14,217 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Temp
+2026-03-05 21:05:14,218 | WARNING | ALERT [HIGH] | Mass file modification detected | 168 files modified in 10s
+2026-03-05 21:05:14,220 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,221 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 206 events in 10s
+2026-03-05 21:05:14,241 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_022.jpg.enc
+2026-03-05 21:05:14,242 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_022.jpg.enc
+2026-03-05 21:05:14,243 | WARNING | ALERT [HIGH] | Mass file modification detected | 169 files modified in 10s
+2026-03-05 21:05:14,245 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,246 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 207 events in 10s
+2026-03-05 21:05:14,247 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_022.jpg.enc
+2026-03-05 21:05:14,247 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_022.jpg.enc
+2026-03-05 21:05:14,249 | WARNING | ALERT [HIGH] | Mass file modification detected | 170 files modified in 10s
+2026-03-05 21:05:14,250 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,251 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 208 events in 10s
+2026-03-05 21:05:14,277 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_023.txt.enc
+2026-03-05 21:05:14,278 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_023.txt.enc
+2026-03-05 21:05:14,279 | WARNING | ALERT [HIGH] | Mass file modification detected | 171 files modified in 10s
+2026-03-05 21:05:14,281 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,282 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 209 events in 10s
+2026-03-05 21:05:14,282 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_023.txt.enc
+2026-03-05 21:05:14,283 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_023.txt.enc
+2026-03-05 21:05:14,285 | WARNING | ALERT [HIGH] | Mass file modification detected | 172 files modified in 10s
+2026-03-05 21:05:14,287 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,288 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 210 events in 10s
+2026-03-05 21:05:14,311 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_023.xlsx
+2026-03-05 21:05:14,311 | WARNING | ALERT [HIGH] | Mass file modification detected | 173 files modified in 10s
+2026-03-05 21:05:14,313 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,313 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 211 events in 10s
+2026-03-05 21:05:14,314 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_023.xlsx
+2026-03-05 21:05:14,315 | WARNING | ALERT [HIGH] | Mass file modification detected | 174 files modified in 10s
+2026-03-05 21:05:14,316 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,316 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 212 events in 10s
+2026-03-05 21:05:14,344 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_024.docx.enc
+2026-03-05 21:05:14,344 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_024.docx.enc
+2026-03-05 21:05:14,345 | WARNING | ALERT [HIGH] | Mass file modification detected | 175 files modified in 10s
+2026-03-05 21:05:14,347 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,348 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 213 events in 10s
+2026-03-05 21:05:14,349 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_024.docx.enc
+2026-03-05 21:05:14,349 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_024.docx.enc
+2026-03-05 21:05:14,351 | WARNING | ALERT [HIGH] | Mass file modification detected | 176 files modified in 10s
+2026-03-05 21:05:14,352 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,354 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 214 events in 10s
+2026-03-05 21:05:14,377 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_024.pdf
+2026-03-05 21:05:14,377 | WARNING | ALERT [HIGH] | Mass file modification detected | 177 files modified in 10s
+2026-03-05 21:05:14,379 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,379 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 215 events in 10s
+2026-03-05 21:05:14,380 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_024.pdf
+2026-03-05 21:05:14,381 | WARNING | ALERT [HIGH] | Mass file modification detected | 178 files modified in 10s
+2026-03-05 21:05:14,383 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,384 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 216 events in 10s
+2026-03-05 21:05:14,390 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:14,391 | WARNING | ALERT [HIGH] | Mass file modification detected | 179 files modified in 10s
+2026-03-05 21:05:14,393 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,394 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 217 events in 10s
+2026-03-05 21:05:14,407 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:14,408 | WARNING | ALERT [HIGH] | Mass file modification detected | 180 files modified in 10s
+2026-03-05 21:05:14,410 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,411 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 218 events in 10s
+2026-03-05 21:05:14,811 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-wal
+2026-03-05 21:05:14,811 | WARNING | ALERT [HIGH] | Mass file modification detected | 181 files modified in 10s
+2026-03-05 21:05:14,813 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,814 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 219 events in 10s
+2026-03-05 21:05:14,816 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db
+2026-03-05 21:05:14,818 | WARNING | ALERT [HIGH] | Mass file modification detected | 182 files modified in 10s
+2026-03-05 21:05:14,819 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,821 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 220 events in 10s
+2026-03-05 21:05:14,900 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-wal
+2026-03-05 21:05:14,901 | WARNING | ALERT [HIGH] | Mass file modification detected | 183 files modified in 10s
+2026-03-05 21:05:14,902 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,903 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 221 events in 10s
+2026-03-05 21:05:14,904 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-wal
+2026-03-05 21:05:14,906 | WARNING | ALERT [HIGH] | Mass file modification detected | 184 files modified in 10s
+2026-03-05 21:05:14,908 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:14,909 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 222 events in 10s
+2026-03-05 21:05:15,170 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:15,171 | WARNING | ALERT [HIGH] | Mass file modification detected | 185 files modified in 10s
+2026-03-05 21:05:15,173 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,175 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 223 events in 10s
+2026-03-05 21:05:15,282 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:15,283 | WARNING | ALERT [HIGH] | Mass file modification detected | 186 files modified in 10s
+2026-03-05 21:05:15,287 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,289 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 224 events in 10s
+2026-03-05 21:05:15,413 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg | dest=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg.enc
+2026-03-05 21:05:15,414 | WARNING | ALERT [HIGH] | File renamed to suspicious ransomware extension | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg -> C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg.enc
+2026-03-05 21:05:15,417 | WARNING | ALERT | Level=HIGH | Reason=File renamed to suspicious ransomware extension | Details=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg -> C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg.enc
+2026-03-05 21:05:15,419 | WARNING | ALERT [HIGH] | Mass file modification detected | 186 files modified in 10s
+2026-03-05 21:05:15,422 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,425 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 225 events in 10s
+2026-03-05 21:05:15,426 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:15,427 | WARNING | ALERT [HIGH] | Mass file modification detected | 187 files modified in 10s
+2026-03-05 21:05:15,428 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,429 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 226 events in 10s
+2026-03-05 21:05:15,430 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg.enc
+2026-03-05 21:05:15,431 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_000.jpg.enc
+2026-03-05 21:05:15,433 | WARNING | ALERT [HIGH] | Mass file modification detected | 188 files modified in 10s
+2026-03-05 21:05:15,435 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,436 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 227 events in 10s
+2026-03-05 21:05:15,448 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.txt | dest=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.txt.enc
+2026-03-05 21:05:15,449 | WARNING | ALERT [HIGH] | File renamed to suspicious ransomware extension | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.txt -> C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.txt.enc
+2026-03-05 21:05:15,459 | WARNING | ALERT [HIGH] | Mass file modification detected | 188 files modified in 10s
+2026-03-05 21:05:15,466 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,467 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 228 events in 10s
+2026-03-05 21:05:15,471 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:15,474 | WARNING | ALERT [HIGH] | Mass file modification detected | 189 files modified in 10s
+2026-03-05 21:05:15,485 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,485 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 229 events in 10s
+2026-03-05 21:05:15,487 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.txt.enc
+2026-03-05 21:05:15,487 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_001.txt.enc
+2026-03-05 21:05:15,489 | WARNING | ALERT [HIGH] | Mass file modification detected | 190 files modified in 10s
+2026-03-05 21:05:15,491 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,492 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 230 events in 10s
+2026-03-05 21:05:15,493 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.xlsx | dest=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.xlsx.enc
+2026-03-05 21:05:15,494 | WARNING | ALERT [HIGH] | File renamed to suspicious ransomware extension | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.xlsx -> C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.xlsx.enc
+2026-03-05 21:05:15,496 | WARNING | ALERT [HIGH] | Mass file modification detected | 190 files modified in 10s
+2026-03-05 21:05:15,498 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,499 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 231 events in 10s
+2026-03-05 21:05:15,502 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:15,506 | WARNING | ALERT [HIGH] | Mass file modification detected | 191 files modified in 10s
+2026-03-05 21:05:15,512 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,513 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 232 events in 10s
+2026-03-05 21:05:15,513 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.xlsx.enc
+2026-03-05 21:05:15,513 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_002.xlsx.enc
+2026-03-05 21:05:15,515 | WARNING | ALERT [HIGH] | Mass file modification detected | 192 files modified in 10s
+2026-03-05 21:05:15,516 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,517 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 233 events in 10s
+2026-03-05 21:05:15,518 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.xlsx | dest=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.xlsx.enc
+2026-03-05 21:05:15,518 | WARNING | ALERT [HIGH] | File renamed to suspicious ransomware extension | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.xlsx -> C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.xlsx.enc
+2026-03-05 21:05:15,519 | WARNING | ALERT [HIGH] | Mass file modification detected | 192 files modified in 10s
+2026-03-05 21:05:15,522 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,523 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 234 events in 10s
+2026-03-05 21:05:15,524 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files
+2026-03-05 21:05:15,524 | WARNING | ALERT [HIGH] | Mass file modification detected | 193 files modified in 10s
+2026-03-05 21:05:15,525 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,526 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 235 events in 10s
+2026-03-05 21:05:15,527 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.xlsx.enc
+2026-03-05 21:05:15,527 | WARNING | ALERT [HIGH] | Suspicious ransomware extension detected | C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\simulation_test_files\test_file_003.xlsx.enc
+2026-03-05 21:05:15,528 | WARNING | ALERT [HIGH] | Mass file modification detected | 194 files modified in 10s
+2026-03-05 21:05:15,529 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:15,530 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 236 events in 10s
+2026-03-05 21:05:16,179 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:16,180 | WARNING | ALERT [HIGH] | Mass file modification detected | 195 files modified in 10s
+2026-03-05 21:05:16,184 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:16,185 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 237 events in 10s
+2026-03-05 21:05:16,290 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:16,290 | WARNING | ALERT [HIGH] | Mass file modification detected | 196 files modified in 10s
+2026-03-05 21:05:16,292 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:16,294 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 238 events in 10s
+2026-03-05 21:05:17,198 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:17,207 | WARNING | ALERT [HIGH] | Mass file modification detected | 197 files modified in 10s
+2026-03-05 21:05:17,212 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:17,214 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 239 events in 10s
+2026-03-05 21:05:17,249 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:17,249 | WARNING | ALERT [HIGH] | Mass file modification detected | 198 files modified in 10s
+2026-03-05 21:05:17,251 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:17,252 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 240 events in 10s
+2026-03-05 21:05:17,537 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\AD2F1837.OMENCommandCenter_v10z8vjag6ke6\LocalCache\Local\HPOmenServices
+2026-03-05 21:05:17,538 | WARNING | ALERT [HIGH] | Mass file modification detected | 199 files modified in 10s
+2026-03-05 21:05:17,539 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:17,540 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 241 events in 10s
+2026-03-05 21:05:17,722 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data
+2026-03-05 21:05:17,724 | WARNING | ALERT [HIGH] | Mass file modification detected | 200 files modified in 10s
+2026-03-05 21:05:17,727 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 30 files created in 10s
+2026-03-05 21:05:17,729 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 242 events in 10s
+2026-03-05 21:05:17,730 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Edge-Local-State-Tmp-8e641262-fc09-46e9-97ac-4e09a8b7b234.tmp
+2026-03-05 21:05:17,733 | WARNING | ALERT [HIGH] | Mass file modification detected | 200 files modified in 10s
+2026-03-05 21:05:17,735 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 31 files created in 10s
+2026-03-05 21:05:17,736 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 243 events in 10s
+2026-03-05 21:05:17,737 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data
+2026-03-05 21:05:17,741 | WARNING | ALERT [HIGH] | Mass file modification detected | 201 files modified in 10s
+2026-03-05 21:05:17,743 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 31 files created in 10s
+2026-03-05 21:05:17,745 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 244 events in 10s
+2026-03-05 21:05:17,746 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Edge-Local-State-Tmp-8e641262-fc09-46e9-97ac-4e09a8b7b234.tmp
+2026-03-05 21:05:17,746 | WARNING | ALERT [HIGH] | Mass file modification detected | 202 files modified in 10s
+2026-03-05 21:05:17,748 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 31 files created in 10s
+2026-03-05 21:05:17,748 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 245 events in 10s
+2026-03-05 21:05:17,749 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Local State~RF4334d1c6.TMP
+2026-03-05 21:05:17,750 | WARNING | ALERT [HIGH] | Mass file modification detected | 202 files modified in 10s
+2026-03-05 21:05:17,751 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 32 files created in 10s
+2026-03-05 21:05:17,752 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 246 events in 10s
+2026-03-05 21:05:17,753 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data
+2026-03-05 21:05:17,754 | WARNING | ALERT [HIGH] | Mass file modification detected | 203 files modified in 10s
+2026-03-05 21:05:17,756 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 32 files created in 10s
+2026-03-05 21:05:17,758 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 247 events in 10s
+2026-03-05 21:05:17,760 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Local State~RF4334d1c6.TMP
+2026-03-05 21:05:17,761 | WARNING | ALERT [HIGH] | Mass file modification detected | 203 files modified in 10s
+2026-03-05 21:05:17,762 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 32 files created in 10s
+2026-03-05 21:05:17,763 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 248 events in 10s
+2026-03-05 21:05:17,763 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Local State | dest=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Local State~RF4334d1c6.TMP
+2026-03-05 21:05:17,764 | WARNING | ALERT [HIGH] | Mass file modification detected | 203 files modified in 10s
+2026-03-05 21:05:17,765 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 32 files created in 10s
+2026-03-05 21:05:17,766 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 249 events in 10s
+2026-03-05 21:05:17,766 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default
+2026-03-05 21:05:17,767 | WARNING | ALERT [HIGH] | Mass file modification detected | 204 files modified in 10s
+2026-03-05 21:05:17,768 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 32 files created in 10s
+2026-03-05 21:05:17,769 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 250 events in 10s
+2026-03-05 21:05:17,770 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data
+2026-03-05 21:05:17,770 | WARNING | ALERT [HIGH] | Mass file modification detected | 205 files modified in 10s
+2026-03-05 21:05:17,772 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 32 files created in 10s
+2026-03-05 21:05:17,773 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 251 events in 10s
+2026-03-05 21:05:17,773 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\8411a0d2-c2cb-450c-966c-2ff0bf80c18f.tmp
+2026-03-05 21:05:17,774 | WARNING | ALERT [HIGH] | Mass file modification detected | 205 files modified in 10s
+2026-03-05 21:05:17,776 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 33 files created in 10s
+2026-03-05 21:05:17,776 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 252 events in 10s
+2026-03-05 21:05:17,777 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Edge-Local-State-Tmp-8e641262-fc09-46e9-97ac-4e09a8b7b234.tmp | dest=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Local State
+2026-03-05 21:05:17,777 | WARNING | ALERT [HIGH] | Mass file modification detected | 205 files modified in 10s
+2026-03-05 21:05:17,778 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:17,779 | WARNING | ALERT | Level=HIGH | Reason=Mass file renaming detected | Details=10 renames in 10s
+2026-03-05 21:05:17,781 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 33 files created in 10s
+2026-03-05 21:05:17,782 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 253 events in 10s
+2026-03-05 21:05:17,783 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data
+2026-03-05 21:05:17,783 | WARNING | ALERT [HIGH] | Mass file modification detected | 206 files modified in 10s
+2026-03-05 21:05:17,784 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:17,787 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 33 files created in 10s
+2026-03-05 21:05:17,788 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 254 events in 10s
+2026-03-05 21:05:17,790 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Local State
+2026-03-05 21:05:17,791 | WARNING | ALERT [HIGH] | Mass file modification detected | 207 files modified in 10s
+2026-03-05 21:05:17,793 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:17,796 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 33 files created in 10s
+2026-03-05 21:05:17,796 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 255 events in 10s
+2026-03-05 21:05:17,797 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Local State~RF4334d1c6.TMP
+2026-03-05 21:05:17,798 | WARNING | ALERT [HIGH] | Mass file modification detected | 207 files modified in 10s
+2026-03-05 21:05:17,798 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:17,800 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 33 files created in 10s
+2026-03-05 21:05:17,801 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 256 events in 10s
+2026-03-05 21:05:17,802 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data
+2026-03-05 21:05:17,803 | WARNING | ALERT [HIGH] | Mass file modification detected | 208 files modified in 10s
+2026-03-05 21:05:17,805 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:17,808 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 33 files created in 10s
+2026-03-05 21:05:17,809 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 257 events in 10s
+2026-03-05 21:05:17,810 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default
+2026-03-05 21:05:17,810 | WARNING | ALERT [HIGH] | Mass file modification detected | 209 files modified in 10s
+2026-03-05 21:05:17,811 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:17,813 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 33 files created in 10s
+2026-03-05 21:05:17,813 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 258 events in 10s
+2026-03-05 21:05:17,814 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\8411a0d2-c2cb-450c-966c-2ff0bf80c18f.tmp
+2026-03-05 21:05:17,814 | WARNING | ALERT [HIGH] | Mass file modification detected | 210 files modified in 10s
+2026-03-05 21:05:17,815 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:17,816 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 33 files created in 10s
+2026-03-05 21:05:17,817 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 259 events in 10s
+2026-03-05 21:05:17,817 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Preferences~RF4334d1d6.TMP
+2026-03-05 21:05:17,818 | WARNING | ALERT [HIGH] | Mass file modification detected | 210 files modified in 10s
+2026-03-05 21:05:17,819 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:17,820 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,821 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 260 events in 10s
+2026-03-05 21:05:17,822 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default
+2026-03-05 21:05:17,822 | WARNING | ALERT [HIGH] | Mass file modification detected | 211 files modified in 10s
+2026-03-05 21:05:17,823 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:17,825 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,826 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 261 events in 10s
+2026-03-05 21:05:17,827 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Preferences~RF4334d1d6.TMP
+2026-03-05 21:05:17,828 | WARNING | ALERT [HIGH] | Mass file modification detected | 211 files modified in 10s
+2026-03-05 21:05:17,829 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:17,830 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,831 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 262 events in 10s
+2026-03-05 21:05:17,831 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Preferences | dest=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Preferences~RF4334d1d6.TMP
+2026-03-05 21:05:17,832 | WARNING | ALERT [HIGH] | Mass file modification detected | 211 files modified in 10s
+2026-03-05 21:05:17,833 | WARNING | ALERT [HIGH] | Mass file renaming detected | 11 renames in 10s
+2026-03-05 21:05:17,834 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,835 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 263 events in 10s
+2026-03-05 21:05:17,835 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default
+2026-03-05 21:05:17,836 | WARNING | ALERT [HIGH] | Mass file modification detected | 212 files modified in 10s
+2026-03-05 21:05:17,837 | WARNING | ALERT [HIGH] | Mass file renaming detected | 11 renames in 10s
+2026-03-05 21:05:17,839 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,840 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 264 events in 10s
+2026-03-05 21:05:17,841 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\8411a0d2-c2cb-450c-966c-2ff0bf80c18f.tmp | dest=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Preferences
+2026-03-05 21:05:17,842 | WARNING | ALERT [HIGH] | Mass file modification detected | 212 files modified in 10s
+2026-03-05 21:05:17,843 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,844 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,845 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 265 events in 10s
+2026-03-05 21:05:17,845 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default
+2026-03-05 21:05:17,846 | WARNING | ALERT [HIGH] | Mass file modification detected | 213 files modified in 10s
+2026-03-05 21:05:17,847 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,848 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,848 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 266 events in 10s
+2026-03-05 21:05:17,849 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Preferences
+2026-03-05 21:05:17,849 | WARNING | ALERT [HIGH] | Mass file modification detected | 214 files modified in 10s
+2026-03-05 21:05:17,851 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,853 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,859 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 267 events in 10s
+2026-03-05 21:05:17,859 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Preferences~RF4334d1d6.TMP
+2026-03-05 21:05:17,860 | WARNING | ALERT [HIGH] | Mass file modification detected | 214 files modified in 10s
+2026-03-05 21:05:17,861 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,862 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,863 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 268 events in 10s
+2026-03-05 21:05:17,863 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default
+2026-03-05 21:05:17,864 | WARNING | ALERT [HIGH] | Mass file modification detected | 215 files modified in 10s
+2026-03-05 21:05:17,865 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,866 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,866 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 269 events in 10s
+2026-03-05 21:05:17,886 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\logs\renderer_js.log
+2026-03-05 21:05:17,887 | WARNING | ALERT [HIGH] | Mass file modification detected | 216 files modified in 10s
+2026-03-05 21:05:17,888 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,890 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,892 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 270 events in 10s
+2026-03-05 21:05:17,893 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\logs\renderer_js.log
+2026-03-05 21:05:17,893 | WARNING | ALERT [HIGH] | Mass file modification detected | 217 files modified in 10s
+2026-03-05 21:05:17,895 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,896 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,897 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 271 events in 10s
+2026-03-05 21:05:17,899 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\logs\renderer_js.log
+2026-03-05 21:05:17,899 | WARNING | ALERT [HIGH] | Mass file modification detected | 218 files modified in 10s
+2026-03-05 21:05:17,901 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,902 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,902 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 272 events in 10s
+2026-03-05 21:05:17,904 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\logs\renderer_js.log
+2026-03-05 21:05:17,905 | WARNING | ALERT [HIGH] | Mass file modification detected | 219 files modified in 10s
+2026-03-05 21:05:17,906 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,907 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,907 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 273 events in 10s
+2026-03-05 21:05:17,909 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\logs\renderer_js.log
+2026-03-05 21:05:17,910 | WARNING | ALERT [HIGH] | Mass file modification detected | 220 files modified in 10s
+2026-03-05 21:05:17,911 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,912 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,913 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 274 events in 10s
+2026-03-05 21:05:17,917 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\logs\renderer_js.log
+2026-03-05 21:05:17,917 | WARNING | ALERT [HIGH] | Mass file modification detected | 221 files modified in 10s
+2026-03-05 21:05:17,919 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:17,921 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:17,922 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 275 events in 10s
+2026-03-05 21:05:18,475 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\threading.py
+2026-03-05 21:05:18,476 | WARNING | ALERT [HIGH] | Mass file modification detected | 222 files modified in 10s
+2026-03-05 21:05:18,479 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:18,483 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:18,485 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 276 events in 10s
+2026-03-05 21:05:18,515 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\History-journal
+2026-03-05 21:05:18,517 | WARNING | ALERT [HIGH] | Mass file modification detected | 223 files modified in 10s
+2026-03-05 21:05:18,520 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:18,522 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:18,523 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 277 events in 10s
+2026-03-05 21:05:18,525 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\History-journal
+2026-03-05 21:05:18,527 | WARNING | ALERT [HIGH] | Mass file modification detected | 224 files modified in 10s
+2026-03-05 21:05:18,530 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:18,533 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:18,534 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 278 events in 10s
+2026-03-05 21:05:18,535 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\History
+2026-03-05 21:05:18,536 | WARNING | ALERT [HIGH] | Mass file modification detected | 225 files modified in 10s
+2026-03-05 21:05:18,538 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:18,541 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:18,543 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 279 events in 10s
+2026-03-05 21:05:18,547 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\History-journal
+2026-03-05 21:05:18,552 | WARNING | ALERT [HIGH] | Mass file modification detected | 226 files modified in 10s
+2026-03-05 21:05:18,556 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:18,559 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:18,559 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 280 events in 10s
+2026-03-05 21:05:19,155 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:19,157 | WARNING | ALERT [HIGH] | Mass file modification detected | 227 files modified in 10s
+2026-03-05 21:05:19,159 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:19,161 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:19,162 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 281 events in 10s
+2026-03-05 21:05:19,341 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:19,346 | WARNING | ALERT [HIGH] | Mass file modification detected | 228 files modified in 10s
+2026-03-05 21:05:19,355 | WARNING | ALERT [HIGH] | Mass file renaming detected | 12 renames in 10s
+2026-03-05 21:05:19,362 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 34 files created in 10s
+2026-03-05 21:05:19,364 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 282 events in 10s
+2026-03-05 21:05:21,114 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:21,115 | WARNING | ALERT [HIGH] | Mass file modification detected | 213 files modified in 10s
+2026-03-05 21:05:21,118 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:21,123 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 32 files created in 10s
+2026-03-05 21:05:21,125 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 261 events in 10s
+2026-03-05 21:05:21,126 | WARNING | ALERT | Level=MEDIUM | Reason=High ratio of modifications+renames (early ransomware pattern) | Details=261 events in 10s
+2026-03-05 21:05:21,127 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:21,128 | WARNING | ALERT [HIGH] | Mass file modification detected | 213 files modified in 10s
+2026-03-05 21:05:21,130 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:21,132 | WARNING | ALERT [MEDIUM] | Mass file creation detected | 32 files created in 10s
+2026-03-05 21:05:21,134 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 261 events in 10s
+2026-03-05 21:05:22,019 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\Microsoft.WindowsStore_8wekyb3d8bbwe\LocalState\store.db
+2026-03-05 21:05:22,021 | WARNING | ALERT [HIGH] | Mass file modification detected | 164 files modified in 10s
+2026-03-05 21:05:22,028 | WARNING | ALERT | Level=HIGH | Reason=Mass file modification detected | Details=164 files modified in 10s
+2026-03-05 21:05:22,029 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:22,031 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 187 events in 10s
+2026-03-05 21:05:22,115 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:22,120 | WARNING | ALERT [HIGH] | Mass file modification detected | 165 files modified in 10s
+2026-03-05 21:05:22,136 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:22,151 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 188 events in 10s
+2026-03-05 21:05:22,160 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:22,162 | WARNING | ALERT [HIGH] | Mass file modification detected | 166 files modified in 10s
+2026-03-05 21:05:22,175 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:22,179 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 189 events in 10s
+2026-03-05 21:05:22,516 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-wal
+2026-03-05 21:05:22,519 | WARNING | ALERT [HIGH] | Mass file modification detected | 167 files modified in 10s
+2026-03-05 21:05:22,525 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:22,527 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 190 events in 10s
+2026-03-05 21:05:22,529 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db
+2026-03-05 21:05:22,530 | WARNING | ALERT [HIGH] | Mass file modification detected | 168 files modified in 10s
+2026-03-05 21:05:22,532 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:22,533 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 191 events in 10s
+2026-03-05 21:05:22,576 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-wal
+2026-03-05 21:05:22,576 | WARNING | ALERT [HIGH] | Mass file modification detected | 169 files modified in 10s
+2026-03-05 21:05:22,578 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:22,580 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 192 events in 10s
+2026-03-05 21:05:22,581 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-wal
+2026-03-05 21:05:22,582 | WARNING | ALERT [HIGH] | Mass file modification detected | 170 files modified in 10s
+2026-03-05 21:05:22,584 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:22,586 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 193 events in 10s
+2026-03-05 21:05:23,046 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\logs\ransomwatch_20260305_210345.log
+2026-03-05 21:05:23,047 | WARNING | ALERT [HIGH] | Mass file modification detected | 151 files modified in 10s
+2026-03-05 21:05:23,049 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:23,051 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 174 events in 10s
+2026-03-05 21:05:23,117 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\logs\ransomwatch_20260305_210345.log
+2026-03-05 21:05:23,119 | WARNING | ALERT [HIGH] | Mass file modification detected | 148 files modified in 10s
+2026-03-05 21:05:23,125 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:23,128 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 171 events in 10s
+2026-03-05 21:05:23,148 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\logs\ransomwatch_20260305_210345.log
+2026-03-05 21:05:23,149 | WARNING | ALERT [HIGH] | Mass file modification detected | 147 files modified in 10s
+2026-03-05 21:05:23,151 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:23,154 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 170 events in 10s
+2026-03-05 21:05:23,160 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\logs\ransomwatch_20260305_210345.log
+2026-03-05 21:05:23,161 | WARNING | ALERT [HIGH] | Mass file modification detected | 148 files modified in 10s
+2026-03-05 21:05:23,164 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:23,168 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 171 events in 10s
+2026-03-05 21:05:23,175 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:23,176 | WARNING | ALERT [HIGH] | Mass file modification detected | 147 files modified in 10s
+2026-03-05 21:05:23,177 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:23,179 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 170 events in 10s
+2026-03-05 21:05:23,246 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-05 21:05:23,247 | WARNING | ALERT [HIGH] | Mass file modification detected | 143 files modified in 10s
+2026-03-05 21:05:23,250 | WARNING | ALERT [HIGH] | Mass file renaming detected | 10 renames in 10s
+2026-03-05 21:05:23,254 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 164 events in 10s
+2026-03-05 21:05:23,548 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\logs\ransomwatch_20260305_210345.log
+2026-03-05 21:05:23,549 | WARNING | ALERT [HIGH] | Mass file modification detected | 119 files modified in 10s
+2026-03-05 21:05:23,550 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 136 events in 10s
+2026-03-05 21:05:23,552 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\logs\ransomwatch_20260305_210345.log
+2026-03-05 21:05:23,554 | WARNING | ALERT [HIGH] | Mass file modification detected | 120 files modified in 10s
+2026-03-05 21:05:23,559 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 137 events in 10s
+2026-03-05 21:05:23,560 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\OneDrive\Attachments\Desktop\ransomware\logs\ransomwatch_20260305_210345.log
+2026-03-05 21:05:23,561 | WARNING | ALERT [HIGH] | Mass file modification detected | 121 files modified in 10s
+2026-03-05 21:05:23,564 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 138 events in 10s

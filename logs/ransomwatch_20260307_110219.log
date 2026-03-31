@@ -1,0 +1,400 @@
+2026-03-07 11:02:19,673 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-07 11:02:19,674 | INFO | [33mPress CTRL+C to quit[0m
+2026-03-07 11:02:21,756 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:21] "GET / HTTP/1.1" 200 -
+2026-03-07 11:02:21,972 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:21] "GET /socket.io/?EIO=4&transport=polling&t=Pp7KQ6f HTTP/1.1" 200 -
+2026-03-07 11:02:22,050 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:22] "POST /socket.io/?EIO=4&transport=polling&t=Pp7KQAU&sid=TiaDQPwGQX8ckruiAAAA HTTP/1.1" 200 -
+2026-03-07 11:02:22,298 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:22] "GET /socket.io/?EIO=4&transport=polling&t=Pp7KQAZ&sid=TiaDQPwGQX8ckruiAAAA HTTP/1.1" 200 -
+2026-03-07 11:02:22,305 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:22] "GET /socket.io/?EIO=4&transport=polling&t=Pp7KQE1 HTTP/1.1" 200 -
+2026-03-07 11:02:22,517 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:22] "GET /socket.io/?EIO=4&transport=polling&t=Pp7KQFZ&sid=TiaDQPwGQX8ckruiAAAA HTTP/1.1" 200 -
+2026-03-07 11:02:22,632 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:22] "POST /socket.io/?EIO=4&transport=polling&t=Pp7KQIh&sid=KM6G6tDiMp6ODu21AAAC HTTP/1.1" 200 -
+2026-03-07 11:02:22,817 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:22] "GET /socket.io/?EIO=4&transport=polling&t=Pp7KQIi&sid=KM6G6tDiMp6ODu21AAAC HTTP/1.1" 200 -
+2026-03-07 11:02:22,881 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:22] "GET /socket.io/?EIO=4&transport=polling&t=Pp7KQOS&sid=KM6G6tDiMp6ODu21AAAC HTTP/1.1" 200 -
+2026-03-07 11:02:23,217 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:23] "GET /socket.io/?EIO=4&transport=polling&t=Pp7KQOr&sid=KM6G6tDiMp6ODu21AAAC HTTP/1.1" 200 -
+2026-03-07 11:02:24,272 | INFO | 127.0.0.1 - - [07/Mar/2026 11:02:24] "GET /api/report HTTP/1.1" 200 -
+2026-03-07 11:03:06,758 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Local\Temp\c2cbddb7-3f70-4918-bf91-78a1fa681de1.tmp
+2026-03-07 11:03:06,784 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Cookies-journal
+2026-03-07 11:03:06,785 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Cookies-journal
+2026-03-07 11:03:06,789 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Cookies
+2026-03-07 11:03:06,790 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Cookies-journal
+2026-03-07 11:03:06,853 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network
+2026-03-07 11:03:06,853 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\72c9fe5f-b852-4808-8437-b454dacd5445.tmp
+2026-03-07 11:03:06,854 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network
+2026-03-07 11:03:06,856 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Temp
+2026-03-07 11:03:06,857 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\72c9fe5f-b852-4808-8437-b454dacd5445.tmp
+2026-03-07 11:03:06,858 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 10 events in 10s
+2026-03-07 11:03:06,859 | WARNING | ALERT | Level=MEDIUM | Reason=High ratio of modifications+renames (early ransomware pattern) | Details=10 events in 10s
+2026-03-07 11:03:06,859 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\72c9fe5f-b852-4808-8437-b454dacd5445.tmp
+2026-03-07 11:03:06,860 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 11 events in 10s
+2026-03-07 11:03:06,861 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Network Persistent State~RF4b5a30b2.TMP
+2026-03-07 11:03:06,862 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network
+2026-03-07 11:03:06,863 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Network Persistent State~RF4b5a30b2.TMP
+2026-03-07 11:03:06,864 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Network Persistent State | dest=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Network Persistent State~RF4b5a30b2.TMP
+2026-03-07 11:03:06,866 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network
+2026-03-07 11:03:06,867 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\72c9fe5f-b852-4808-8437-b454dacd5445.tmp | dest=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Network Persistent State
+2026-03-07 11:03:06,867 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network
+2026-03-07 11:03:06,868 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Network Persistent State
+2026-03-07 11:03:06,869 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\Network\Network Persistent State~RF4b5a30b2.TMP
+2026-03-07 11:03:16,110 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\AD2F1837.myHP_v10z8vjag6ke6\Settings\settings.dat
+2026-03-07 11:03:17,657 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:17,658 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:21,422 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Cookies-journal
+2026-03-07 11:03:21,424 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Cookies-journal
+2026-03-07 11:03:21,426 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Cookies
+2026-03-07 11:03:21,428 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Cookies-journal
+2026-03-07 11:03:21,684 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:21,686 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:21,749 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Local\Temp\c38de3b5-0b8e-4afe-896f-4c6809eeba24.tmp
+2026-03-07 11:03:21,752 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 10 events in 10s
+2026-03-07 11:03:21,753 | WARNING | ALERT | Level=MEDIUM | Reason=High ratio of modifications+renames (early ransomware pattern) | Details=10 events in 10s
+2026-03-07 11:03:22,294 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\WebStorage\QuotaManager-journal
+2026-03-07 11:03:22,296 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 11 events in 10s
+2026-03-07 11:03:22,335 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\WebStorage\QuotaManager-journal
+2026-03-07 11:03:22,336 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 12 events in 10s
+2026-03-07 11:03:22,336 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\WebStorage\QuotaManager
+2026-03-07 11:03:22,337 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 13 events in 10s
+2026-03-07 11:03:22,337 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\WebStorage\QuotaManager-journal
+2026-03-07 11:03:22,338 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 14 events in 10s
+2026-03-07 11:03:24,839 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView\Default\Network\Reporting and NEL-journal
+2026-03-07 11:03:24,843 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 15 events in 10s
+2026-03-07 11:03:24,845 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView\Default\Network\Cookies-journal
+2026-03-07 11:03:24,846 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 16 events in 10s
+2026-03-07 11:03:24,849 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView\Default\Network\Reporting and NEL-journal
+2026-03-07 11:03:24,851 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 17 events in 10s
+2026-03-07 11:03:24,852 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView\Default\Network\Cookies-journal
+2026-03-07 11:03:24,863 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 18 events in 10s
+2026-03-07 11:03:24,864 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView\Default\Network\Cookies
+2026-03-07 11:03:24,869 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 19 events in 10s
+2026-03-07 11:03:24,870 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView\Default\Network\Reporting and NEL
+2026-03-07 11:03:24,871 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 20 events in 10s
+2026-03-07 11:03:24,871 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView\Default\Network\Cookies-journal
+2026-03-07 11:03:24,871 | WARNING | ALERT [HIGH] | Mass file modification detected | 20 files modified in 10s
+2026-03-07 11:03:24,872 | WARNING | ALERT | Level=HIGH | Reason=Mass file modification detected | Details=20 files modified in 10s
+2026-03-07 11:03:24,873 | WARNING | CLASSIFICATION | Family=Generic Ransomware | Confidence=10% | Risk=MEDIUM
+2026-03-07 11:03:24,943 | CRITICAL | DETECTION | Family=Generic Ransomware | Confidence=10% | Risk=MEDIUM
+2026-03-07 11:03:24,945 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 21 events in 10s
+2026-03-07 11:03:24,946 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView\Default\Network\Reporting and NEL-journal
+2026-03-07 11:03:24,946 | WARNING | ALERT [HIGH] | Mass file modification detected | 21 files modified in 10s
+2026-03-07 11:03:24,959 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 22 events in 10s
+2026-03-07 11:03:24,961 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\__pycache__\__init__.cpython-314.pyc
+2026-03-07 11:03:24,961 | WARNING | ALERT [HIGH] | Mass file modification detected | 22 files modified in 10s
+2026-03-07 11:03:24,962 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 23 events in 10s
+2026-03-07 11:03:24,963 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer
+2026-03-07 11:03:24,963 | WARNING | ALERT [HIGH] | Mass file modification detected | 23 files modified in 10s
+2026-03-07 11:03:24,969 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 24 events in 10s
+2026-03-07 11:03:24,970 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\__init__.cpython-314.pyc
+2026-03-07 11:03:24,972 | WARNING | ALERT [HIGH] | Mass file modification detected | 24 files modified in 10s
+2026-03-07 11:03:24,975 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 25 events in 10s
+2026-03-07 11:03:24,976 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades
+2026-03-07 11:03:24,977 | WARNING | ALERT [HIGH] | Mass file modification detected | 25 files modified in 10s
+2026-03-07 11:03:24,978 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 26 events in 10s
+2026-03-07 11:03:24,979 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\accelerometer.cpython-314.pyc
+2026-03-07 11:03:24,979 | WARNING | ALERT [HIGH] | Mass file modification detected | 26 files modified in 10s
+2026-03-07 11:03:24,982 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 27 events in 10s
+2026-03-07 11:03:24,984 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\audio.cpython-314.pyc
+2026-03-07 11:03:24,985 | WARNING | ALERT [HIGH] | Mass file modification detected | 27 files modified in 10s
+2026-03-07 11:03:24,987 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 28 events in 10s
+2026-03-07 11:03:24,990 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\barometer.cpython-314.pyc
+2026-03-07 11:03:24,991 | WARNING | ALERT [HIGH] | Mass file modification detected | 28 files modified in 10s
+2026-03-07 11:03:24,992 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 29 events in 10s
+2026-03-07 11:03:24,992 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\battery.cpython-314.pyc
+2026-03-07 11:03:24,993 | WARNING | ALERT [HIGH] | Mass file modification detected | 29 files modified in 10s
+2026-03-07 11:03:24,994 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 30 events in 10s
+2026-03-07 11:03:24,995 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\call.cpython-314.pyc
+2026-03-07 11:03:24,997 | WARNING | ALERT [HIGH] | Mass file modification detected | 30 files modified in 10s
+2026-03-07 11:03:25,004 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 31 events in 10s
+2026-03-07 11:03:25,005 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\camera.cpython-314.pyc
+2026-03-07 11:03:25,005 | WARNING | ALERT [HIGH] | Mass file modification detected | 31 files modified in 10s
+2026-03-07 11:03:25,007 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 32 events in 10s
+2026-03-07 11:03:25,007 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\compass.cpython-314.pyc
+2026-03-07 11:03:25,008 | WARNING | ALERT [HIGH] | Mass file modification detected | 32 files modified in 10s
+2026-03-07 11:03:25,009 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 33 events in 10s
+2026-03-07 11:03:25,010 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\email.cpython-314.pyc
+2026-03-07 11:03:25,011 | WARNING | ALERT [HIGH] | Mass file modification detected | 33 files modified in 10s
+2026-03-07 11:03:25,012 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 34 events in 10s
+2026-03-07 11:03:25,014 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\filechooser.cpython-314.pyc
+2026-03-07 11:03:25,019 | WARNING | ALERT [HIGH] | Mass file modification detected | 34 files modified in 10s
+2026-03-07 11:03:25,020 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 35 events in 10s
+2026-03-07 11:03:25,021 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\flash.cpython-314.pyc
+2026-03-07 11:03:25,022 | WARNING | ALERT [HIGH] | Mass file modification detected | 35 files modified in 10s
+2026-03-07 11:03:25,024 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 36 events in 10s
+2026-03-07 11:03:25,025 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\gps.cpython-314.pyc
+2026-03-07 11:03:25,026 | WARNING | ALERT [HIGH] | Mass file modification detected | 36 files modified in 10s
+2026-03-07 11:03:25,027 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 37 events in 10s
+2026-03-07 11:03:25,028 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\gravity.cpython-314.pyc
+2026-03-07 11:03:25,029 | WARNING | ALERT [HIGH] | Mass file modification detected | 37 files modified in 10s
+2026-03-07 11:03:25,037 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 38 events in 10s
+2026-03-07 11:03:25,038 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\gyroscope.cpython-314.pyc
+2026-03-07 11:03:25,040 | WARNING | ALERT [HIGH] | Mass file modification detected | 38 files modified in 10s
+2026-03-07 11:03:25,041 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 39 events in 10s
+2026-03-07 11:03:25,042 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\irblaster.cpython-314.pyc
+2026-03-07 11:03:25,042 | WARNING | ALERT [HIGH] | Mass file modification detected | 39 files modified in 10s
+2026-03-07 11:03:25,043 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 40 events in 10s
+2026-03-07 11:03:25,045 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\light.cpython-314.pyc
+2026-03-07 11:03:25,046 | WARNING | ALERT [HIGH] | Mass file modification detected | 40 files modified in 10s
+2026-03-07 11:03:25,050 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 41 events in 10s
+2026-03-07 11:03:25,054 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\proximity.cpython-314.pyc
+2026-03-07 11:03:25,056 | WARNING | ALERT [HIGH] | Mass file modification detected | 41 files modified in 10s
+2026-03-07 11:03:25,057 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 42 events in 10s
+2026-03-07 11:03:25,058 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\orientation.cpython-314.pyc
+2026-03-07 11:03:25,059 | WARNING | ALERT [HIGH] | Mass file modification detected | 42 files modified in 10s
+2026-03-07 11:03:25,060 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 43 events in 10s
+2026-03-07 11:03:25,062 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\notification.cpython-314.pyc
+2026-03-07 11:03:25,063 | WARNING | ALERT [HIGH] | Mass file modification detected | 43 files modified in 10s
+2026-03-07 11:03:25,069 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 44 events in 10s
+2026-03-07 11:03:25,070 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\sms.cpython-314.pyc
+2026-03-07 11:03:25,072 | WARNING | ALERT [HIGH] | Mass file modification detected | 44 files modified in 10s
+2026-03-07 11:03:25,073 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 45 events in 10s
+2026-03-07 11:03:25,075 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\stt.cpython-314.pyc
+2026-03-07 11:03:25,076 | WARNING | ALERT [HIGH] | Mass file modification detected | 45 files modified in 10s
+2026-03-07 11:03:25,081 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 46 events in 10s
+2026-03-07 11:03:25,083 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\tts.cpython-314.pyc
+2026-03-07 11:03:25,084 | WARNING | ALERT [HIGH] | Mass file modification detected | 46 files modified in 10s
+2026-03-07 11:03:25,087 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 47 events in 10s
+2026-03-07 11:03:25,088 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\uniqueid.cpython-314.pyc
+2026-03-07 11:03:25,089 | WARNING | ALERT [HIGH] | Mass file modification detected | 47 files modified in 10s
+2026-03-07 11:03:25,090 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 48 events in 10s
+2026-03-07 11:03:25,091 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\vibrator.cpython-314.pyc
+2026-03-07 11:03:25,092 | WARNING | ALERT [HIGH] | Mass file modification detected | 48 files modified in 10s
+2026-03-07 11:03:25,093 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 49 events in 10s
+2026-03-07 11:03:25,093 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\wifi.cpython-314.pyc
+2026-03-07 11:03:25,094 | WARNING | ALERT [HIGH] | Mass file modification detected | 49 files modified in 10s
+2026-03-07 11:03:25,096 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 50 events in 10s
+2026-03-07 11:03:25,097 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\temperature.cpython-314.pyc
+2026-03-07 11:03:25,099 | WARNING | ALERT [HIGH] | Mass file modification detected | 50 files modified in 10s
+2026-03-07 11:03:25,104 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 51 events in 10s
+2026-03-07 11:03:25,104 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\humidity.cpython-314.pyc
+2026-03-07 11:03:25,105 | WARNING | ALERT [HIGH] | Mass file modification detected | 51 files modified in 10s
+2026-03-07 11:03:25,107 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 52 events in 10s
+2026-03-07 11:03:25,108 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\spatialorientation.cpython-314.pyc
+2026-03-07 11:03:25,109 | WARNING | ALERT [HIGH] | Mass file modification detected | 52 files modified in 10s
+2026-03-07 11:03:25,110 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 53 events in 10s
+2026-03-07 11:03:25,112 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\brightness.cpython-314.pyc
+2026-03-07 11:03:25,112 | WARNING | ALERT [HIGH] | Mass file modification detected | 53 files modified in 10s
+2026-03-07 11:03:25,114 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 54 events in 10s
+2026-03-07 11:03:25,117 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\keystore.cpython-314.pyc
+2026-03-07 11:03:25,118 | WARNING | ALERT [HIGH] | Mass file modification detected | 54 files modified in 10s
+2026-03-07 11:03:25,120 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 55 events in 10s
+2026-03-07 11:03:25,121 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\storagepath.cpython-314.pyc
+2026-03-07 11:03:25,122 | WARNING | ALERT [HIGH] | Mass file modification detected | 55 files modified in 10s
+2026-03-07 11:03:25,124 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 56 events in 10s
+2026-03-07 11:03:25,124 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\bluetooth.cpython-314.pyc
+2026-03-07 11:03:25,125 | WARNING | ALERT [HIGH] | Mass file modification detected | 56 files modified in 10s
+2026-03-07 11:03:25,126 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 57 events in 10s
+2026-03-07 11:03:25,127 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\processors.cpython-314.pyc
+2026-03-07 11:03:25,127 | WARNING | ALERT [HIGH] | Mass file modification detected | 57 files modified in 10s
+2026-03-07 11:03:25,130 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 58 events in 10s
+2026-03-07 11:03:25,133 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\cpu.cpython-314.pyc
+2026-03-07 11:03:25,136 | WARNING | ALERT [HIGH] | Mass file modification detected | 58 files modified in 10s
+2026-03-07 11:03:25,138 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 59 events in 10s
+2026-03-07 11:03:25,139 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\screenshot.cpython-314.pyc
+2026-03-07 11:03:25,139 | WARNING | ALERT [HIGH] | Mass file modification detected | 59 files modified in 10s
+2026-03-07 11:03:25,140 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 60 events in 10s
+2026-03-07 11:03:25,141 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\facades\__pycache__\devicename.cpython-314.pyc
+2026-03-07 11:03:25,141 | WARNING | ALERT [HIGH] | Mass file modification detected | 60 files modified in 10s
+2026-03-07 11:03:25,144 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 61 events in 10s
+2026-03-07 11:03:25,146 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\__pycache__\utils.cpython-314.pyc
+2026-03-07 11:03:25,147 | WARNING | ALERT [HIGH] | Mass file modification detected | 61 files modified in 10s
+2026-03-07 11:03:25,153 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 62 events in 10s
+2026-03-07 11:03:25,155 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\platforms\__pycache__\__init__.cpython-314.pyc
+2026-03-07 11:03:25,158 | WARNING | ALERT [HIGH] | Mass file modification detected | 62 files modified in 10s
+2026-03-07 11:03:25,161 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 63 events in 10s
+2026-03-07 11:03:25,162 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\platforms
+2026-03-07 11:03:25,163 | WARNING | ALERT [HIGH] | Mass file modification detected | 63 files modified in 10s
+2026-03-07 11:03:25,174 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 64 events in 10s
+2026-03-07 11:03:25,177 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\platforms\win\__pycache__\__init__.cpython-314.pyc
+2026-03-07 11:03:25,179 | WARNING | ALERT [HIGH] | Mass file modification detected | 64 files modified in 10s
+2026-03-07 11:03:25,184 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 65 events in 10s
+2026-03-07 11:03:25,185 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\platforms\win
+2026-03-07 11:03:25,188 | WARNING | ALERT [HIGH] | Mass file modification detected | 65 files modified in 10s
+2026-03-07 11:03:25,189 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 66 events in 10s
+2026-03-07 11:03:25,190 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\platforms\win\__pycache__\notification.cpython-314.pyc
+2026-03-07 11:03:25,191 | WARNING | ALERT [HIGH] | Mass file modification detected | 66 files modified in 10s
+2026-03-07 11:03:25,192 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 67 events in 10s
+2026-03-07 11:03:25,193 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\platforms\win\libs\__pycache__\__init__.cpython-314.pyc
+2026-03-07 11:03:25,194 | WARNING | ALERT [HIGH] | Mass file modification detected | 67 files modified in 10s
+2026-03-07 11:03:25,195 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 68 events in 10s
+2026-03-07 11:03:25,196 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\platforms\win\libs
+2026-03-07 11:03:25,197 | WARNING | ALERT [HIGH] | Mass file modification detected | 68 files modified in 10s
+2026-03-07 11:03:25,198 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 69 events in 10s
+2026-03-07 11:03:25,200 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\platforms\win\libs\__pycache__\balloontip.cpython-314.pyc
+2026-03-07 11:03:25,202 | WARNING | ALERT [HIGH] | Mass file modification detected | 69 files modified in 10s
+2026-03-07 11:03:25,204 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 70 events in 10s
+2026-03-07 11:03:25,204 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Programs\Python\Python314\Lib\site-packages\plyer\platforms\win\libs\__pycache__\win_api_defs.cpython-314.pyc
+2026-03-07 11:03:25,205 | WARNING | ALERT [HIGH] | Mass file modification detected | 70 files modified in 10s
+2026-03-07 11:03:25,207 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 71 events in 10s
+2026-03-07 11:03:25,918 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Temp
+2026-03-07 11:03:25,918 | WARNING | ALERT [HIGH] | Mass file modification detected | 71 files modified in 10s
+2026-03-07 11:03:25,919 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 72 events in 10s
+2026-03-07 11:03:26,233 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Temp\NotifyIconGeneratedAumid_1032066418134711872.png
+2026-03-07 11:03:26,235 | WARNING | ALERT [HIGH] | Mass file modification detected | 71 files modified in 10s
+2026-03-07 11:03:26,236 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 72 events in 10s
+2026-03-07 11:03:26,455 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\ActionCenterCache
+2026-03-07 11:03:26,456 | WARNING | ALERT [HIGH] | Mass file modification detected | 72 files modified in 10s
+2026-03-07 11:03:26,457 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 73 events in 10s
+2026-03-07 11:03:26,741 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:26,744 | WARNING | ALERT [HIGH] | Mass file modification detected | 73 files modified in 10s
+2026-03-07 11:03:26,746 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 74 events in 10s
+2026-03-07 11:03:26,747 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:26,751 | WARNING | ALERT [HIGH] | Mass file modification detected | 74 files modified in 10s
+2026-03-07 11:03:26,753 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 75 events in 10s
+2026-03-07 11:03:27,707 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-wal
+2026-03-07 11:03:27,708 | WARNING | ALERT [HIGH] | Mass file modification detected | 73 files modified in 10s
+2026-03-07 11:03:27,710 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 74 events in 10s
+2026-03-07 11:03:27,712 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db
+2026-03-07 11:03:27,713 | WARNING | ALERT [HIGH] | Mass file modification detected | 74 files modified in 10s
+2026-03-07 11:03:27,715 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 75 events in 10s
+2026-03-07 11:03:27,764 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-wal
+2026-03-07 11:03:27,769 | WARNING | ALERT [HIGH] | Mass file modification detected | 75 files modified in 10s
+2026-03-07 11:03:27,787 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 76 events in 10s
+2026-03-07 11:03:27,788 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-wal
+2026-03-07 11:03:27,791 | WARNING | ALERT [HIGH] | Mass file modification detected | 76 files modified in 10s
+2026-03-07 11:03:27,794 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 77 events in 10s
+2026-03-07 11:03:27,795 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:27,795 | WARNING | ALERT [HIGH] | Mass file modification detected | 77 files modified in 10s
+2026-03-07 11:03:27,798 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 78 events in 10s
+2026-03-07 11:03:28,761 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:28,762 | WARNING | ALERT [HIGH] | Mass file modification detected | 78 files modified in 10s
+2026-03-07 11:03:28,765 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 79 events in 10s
+2026-03-07 11:03:28,766 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:28,767 | WARNING | ALERT [HIGH] | Mass file modification detected | 79 files modified in 10s
+2026-03-07 11:03:28,770 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 80 events in 10s
+2026-03-07 11:03:29,811 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Reporting and NEL-journal
+2026-03-07 11:03:29,815 | WARNING | ALERT [HIGH] | Mass file modification detected | 80 files modified in 10s
+2026-03-07 11:03:29,818 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 81 events in 10s
+2026-03-07 11:03:29,819 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Reporting and NEL-journal
+2026-03-07 11:03:29,820 | WARNING | ALERT [HIGH] | Mass file modification detected | 81 files modified in 10s
+2026-03-07 11:03:29,825 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 82 events in 10s
+2026-03-07 11:03:29,826 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Reporting and NEL
+2026-03-07 11:03:29,827 | WARNING | ALERT [HIGH] | Mass file modification detected | 82 files modified in 10s
+2026-03-07 11:03:29,829 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 83 events in 10s
+2026-03-07 11:03:29,829 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Reporting and NEL-journal
+2026-03-07 11:03:29,839 | WARNING | ALERT [HIGH] | Mass file modification detected | 83 files modified in 10s
+2026-03-07 11:03:29,841 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 84 events in 10s
+2026-03-07 11:03:31,233 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\logs\renderer_js.log
+2026-03-07 11:03:31,235 | WARNING | ALERT [HIGH] | Mass file modification detected | 84 files modified in 10s
+2026-03-07 11:03:31,238 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 85 events in 10s
+2026-03-07 11:03:31,239 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\logs\renderer_js.log
+2026-03-07 11:03:31,241 | WARNING | ALERT [HIGH] | Mass file modification detected | 85 files modified in 10s
+2026-03-07 11:03:31,245 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 86 events in 10s
+2026-03-07 11:03:35,817 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:35,818 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 19 events in 10s
+2026-03-07 11:03:35,819 | WARNING | ALERT | Level=MEDIUM | Reason=High ratio of modifications+renames (early ransomware pattern) | Details=19 events in 10s
+2026-03-07 11:03:35,820 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:35,820 | WARNING | ALERT [HIGH] | Mass file modification detected | 20 files modified in 10s
+2026-03-07 11:03:35,821 | WARNING | ALERT | Level=HIGH | Reason=Mass file modification detected | Details=20 files modified in 10s
+2026-03-07 11:03:35,822 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 20 events in 10s
+2026-03-07 11:03:36,023 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Code\User\workspaceStorage\3f57e4d5923e032e15f87d1579c4dba7\chatEditingSessions\0b24e394-6f31-42a4-8aa2-0790dd277c0e\state.json
+2026-03-07 11:03:36,040 | WARNING | ALERT [HIGH] | Mass file modification detected | 20 files modified in 10s
+2026-03-07 11:03:36,056 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 20 events in 10s
+2026-03-07 11:03:36,106 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Code\User\workspaceStorage\3f57e4d5923e032e15f87d1579c4dba7\chatEditingSessions\0b24e394-6f31-42a4-8aa2-0790dd277c0e\state.json
+2026-03-07 11:03:36,109 | WARNING | ALERT [HIGH] | Mass file modification detected | 21 files modified in 10s
+2026-03-07 11:03:36,113 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 21 events in 10s
+2026-03-07 11:03:36,417 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\WebStorage\QuotaManager-journal
+2026-03-07 11:03:36,418 | WARNING | ALERT [HIGH] | Mass file modification detected | 21 files modified in 10s
+2026-03-07 11:03:36,420 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 21 events in 10s
+2026-03-07 11:03:36,459 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\WebStorage\QuotaManager-journal
+2026-03-07 11:03:36,460 | WARNING | ALERT [HIGH] | Mass file modification detected | 21 files modified in 10s
+2026-03-07 11:03:36,471 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 21 events in 10s
+2026-03-07 11:03:36,472 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\WebStorage\QuotaManager
+2026-03-07 11:03:36,474 | WARNING | ALERT [HIGH] | Mass file modification detected | 22 files modified in 10s
+2026-03-07 11:03:36,477 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 22 events in 10s
+2026-03-07 11:03:36,487 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\WebStorage\QuotaManager-journal
+2026-03-07 11:03:36,489 | WARNING | ALERT [HIGH] | Mass file modification detected | 23 files modified in 10s
+2026-03-07 11:03:36,491 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 23 events in 10s
+2026-03-07 11:03:36,784 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb\005625.ldb
+2026-03-07 11:03:36,786 | WARNING | ALERT [HIGH] | Mass file modification detected | 22 files modified in 10s
+2026-03-07 11:03:36,788 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 22 events in 10s
+2026-03-07 11:03:36,788 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb\005660.ldb
+2026-03-07 11:03:36,790 | WARNING | ALERT [HIGH] | Mass file modification detected | 23 files modified in 10s
+2026-03-07 11:03:36,801 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 23 events in 10s
+2026-03-07 11:03:36,810 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb\006168.log
+2026-03-07 11:03:36,816 | WARNING | ALERT [HIGH] | Mass file modification detected | 24 files modified in 10s
+2026-03-07 11:03:36,823 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 24 events in 10s
+2026-03-07 11:03:37,938 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-07 11:03:37,939 | WARNING | ALERT [HIGH] | Mass file modification detected | 20 files modified in 10s
+2026-03-07 11:03:37,941 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 20 events in 10s
+2026-03-07 11:03:37,982 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\6SQTC3UXMB3R89H5E751.temp
+2026-03-07 11:03:37,986 | WARNING | ALERT [HIGH] | Mass file modification detected | 20 files modified in 10s
+2026-03-07 11:03:37,990 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 21 events in 10s
+2026-03-07 11:03:37,992 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-07 11:03:38,009 | WARNING | ALERT [HIGH] | Mass file modification detected | 21 files modified in 10s
+2026-03-07 11:03:38,024 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 22 events in 10s
+2026-03-07 11:03:38,025 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\6SQTC3UXMB3R89H5E751.temp
+2026-03-07 11:03:38,027 | WARNING | ALERT [HIGH] | Mass file modification detected | 22 files modified in 10s
+2026-03-07 11:03:38,039 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 23 events in 10s
+2026-03-07 11:03:38,043 | INFO | EVENT=CREATED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4b5aaa47.TMP
+2026-03-07 11:03:38,049 | WARNING | ALERT [HIGH] | Mass file modification detected | 22 files modified in 10s
+2026-03-07 11:03:38,052 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 24 events in 10s
+2026-03-07 11:03:38,054 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-07 11:03:38,055 | WARNING | ALERT [HIGH] | Mass file modification detected | 23 files modified in 10s
+2026-03-07 11:03:38,061 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 25 events in 10s
+2026-03-07 11:03:38,066 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\6SQTC3UXMB3R89H5E751.temp
+2026-03-07 11:03:38,070 | WARNING | ALERT [HIGH] | Mass file modification detected | 24 files modified in 10s
+2026-03-07 11:03:38,073 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 26 events in 10s
+2026-03-07 11:03:38,075 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4b5aaa47.TMP
+2026-03-07 11:03:38,076 | WARNING | ALERT [HIGH] | Mass file modification detected | 24 files modified in 10s
+2026-03-07 11:03:38,077 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 27 events in 10s
+2026-03-07 11:03:38,092 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms | dest=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4b5aaa47.TMP
+2026-03-07 11:03:38,093 | WARNING | ALERT [HIGH] | Mass file modification detected | 24 files modified in 10s
+2026-03-07 11:03:38,103 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 28 events in 10s
+2026-03-07 11:03:38,105 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-07 11:03:38,107 | WARNING | ALERT [HIGH] | Mass file modification detected | 25 files modified in 10s
+2026-03-07 11:03:38,108 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 29 events in 10s
+2026-03-07 11:03:38,109 | INFO | EVENT=RENAMED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\6SQTC3UXMB3R89H5E751.temp | dest=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms
+2026-03-07 11:03:38,110 | WARNING | ALERT [HIGH] | Mass file modification detected | 25 files modified in 10s
+2026-03-07 11:03:38,118 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 30 events in 10s
+2026-03-07 11:03:38,119 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-07 11:03:38,120 | WARNING | ALERT [HIGH] | Mass file modification detected | 26 files modified in 10s
+2026-03-07 11:03:38,123 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 31 events in 10s
+2026-03-07 11:03:38,124 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4b5aaa47.TMP
+2026-03-07 11:03:38,125 | WARNING | ALERT [HIGH] | Mass file modification detected | 27 files modified in 10s
+2026-03-07 11:03:38,128 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 32 events in 10s
+2026-03-07 11:03:38,131 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms
+2026-03-07 11:03:38,132 | WARNING | ALERT [HIGH] | Mass file modification detected | 28 files modified in 10s
+2026-03-07 11:03:38,136 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 33 events in 10s
+2026-03-07 11:03:38,137 | INFO | EVENT=DELETED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ccba5a5986c77e43.customDestinations-ms~RF4b5aaa47.TMP
+2026-03-07 11:03:38,139 | WARNING | ALERT [HIGH] | Mass file modification detected | 28 files modified in 10s
+2026-03-07 11:03:38,141 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 34 events in 10s
+2026-03-07 11:03:38,142 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+2026-03-07 11:03:38,142 | WARNING | ALERT [HIGH] | Mass file modification detected | 29 files modified in 10s
+2026-03-07 11:03:38,144 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 35 events in 10s
+2026-03-07 11:03:38,926 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Packages\AD2F1837.OMENCommandCenter_v10z8vjag6ke6\LocalCache\Local\HPOmenServices
+2026-03-07 11:03:38,938 | WARNING | ALERT [HIGH] | Mass file modification detected | 28 files modified in 10s
+2026-03-07 11:03:39,020 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 34 events in 10s
+2026-03-07 11:03:39,848 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:39,849 | WARNING | ALERT [HIGH] | Mass file modification detected | 25 files modified in 10s
+2026-03-07 11:03:39,852 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 31 events in 10s
+2026-03-07 11:03:39,854 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:39,855 | WARNING | ALERT [HIGH] | Mass file modification detected | 26 files modified in 10s
+2026-03-07 11:03:39,857 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 32 events in 10s
+2026-03-07 11:03:40,852 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:40,853 | WARNING | ALERT [HIGH] | Mass file modification detected | 27 files modified in 10s
+2026-03-07 11:03:40,856 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 33 events in 10s
+2026-03-07 11:03:40,857 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:40,859 | WARNING | ALERT [HIGH] | Mass file modification detected | 28 files modified in 10s
+2026-03-07 11:03:40,868 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 34 events in 10s
+2026-03-07 11:03:41,854 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:41,856 | WARNING | ALERT [HIGH] | Mass file modification detected | 27 files modified in 10s
+2026-03-07 11:03:41,859 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 33 events in 10s
+2026-03-07 11:03:41,867 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:41,873 | WARNING | ALERT [HIGH] | Mass file modification detected | 28 files modified in 10s
+2026-03-07 11:03:41,876 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 34 events in 10s
+2026-03-07 11:03:42,869 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:42,870 | WARNING | ALERT [HIGH] | Mass file modification detected | 29 files modified in 10s
+2026-03-07 11:03:42,873 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 35 events in 10s
+2026-03-07 11:03:42,875 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Roaming\discord\sentry\scope_v3.json
+2026-03-07 11:03:42,879 | WARNING | ALERT [HIGH] | Mass file modification detected | 30 files modified in 10s
+2026-03-07 11:03:42,891 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 36 events in 10s
+2026-03-07 11:03:43,801 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Cookies-journal
+2026-03-07 11:03:43,802 | WARNING | ALERT [HIGH] | Mass file modification detected | 31 files modified in 10s
+2026-03-07 11:03:43,805 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 37 events in 10s
+2026-03-07 11:03:43,806 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Cookies-journal
+2026-03-07 11:03:43,808 | WARNING | ALERT [HIGH] | Mass file modification detected | 32 files modified in 10s
+2026-03-07 11:03:43,835 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 38 events in 10s
+2026-03-07 11:03:43,836 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Cookies
+2026-03-07 11:03:43,863 | WARNING | ALERT [HIGH] | Mass file modification detected | 33 files modified in 10s
+2026-03-07 11:03:43,876 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 39 events in 10s
+2026-03-07 11:03:43,905 | INFO | EVENT=MODIFIED | FILE=C:/Users\shrey\AppData\Local\Microsoft\Edge\User Data\Default\Network\Cookies-journal
+2026-03-07 11:03:43,908 | WARNING | ALERT [HIGH] | Mass file modification detected | 34 files modified in 10s
+2026-03-07 11:03:43,948 | WARNING | ALERT [MEDIUM] | High ratio of modifications+renames (early ransomware pattern) | 40 events in 10s

@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>RansomWatch — Security Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --red:        #e63946;
+    --red-dim:    #7a1a20;
+    --red-glow:   rgba(230,57,70,0.35);
+    --bg:         #080808;
+    --bg2:        #0f0f0f;
+    --bg3:        #161616;
+    --border:     #2a0a0a;
+    --text:       #e8e8e8;
+    --text-dim:   #666;
+    --mono:       'Share Tech Mono', monospace;
+    --sans:       'Rajdhani', sans-serif;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Scanline overlay */
+  body::before {
+    content:'';
+    position:fixed; inset:0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.08) 2px,
+      rgba(0,0,0,0.08) 4px
+    );
+    pointer-events:none;
+    z-index:9999;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--bg2);
+    border-bottom: 2px solid var(--red);
+    padding: 0 2rem;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 30px var(--red-glow);
+    position: sticky; top:0; z-index:100;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo-icon {
+    width: 36px; height: 36px;
+    border: 2px solid var(--red);
+    display: flex; align-items:center; justify-content:center;
+    font-size: 18px;
+    box-shadow: 0 0 12px var(--red-glow);
+    animation: pulse-border 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-border {
+    0%,100% { box-shadow: 0 0 12px var(--red-glow); }
+    50%      { box-shadow: 0 0 24px rgba(230,57,70,0.6); }
+  }
+
+  .logo h1 {
+    font-family: var(--mono);
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    color: var(--red);
+    text-shadow: 0 0 20px var(--red-glow);
+  }
+
+  .logo span {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 2px;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .clock {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+  }
+
+  /* ── Status Badge ── */
+  #status-badge {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    padding: 6px 16px;
+    border: 1px solid var(--red);
+    color: var(--red);
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+
+  #status-badge.monitoring {
+    border-color: #2ecc71;
+    color: #2ecc71;
+    box-shadow: 0 0 10px rgba(46,204,113,0.3);
+    animation: blink 1.5s step-end infinite;
+  }
+
+  #status-badge.alert {
+    border-color: var(--red);
+    color: var(--red);
+    box-shadow: 0 0 20px var(--red-glow);
+    animation: blink 0.5s step-end infinite;
+  }
+
+  #status-badge.contained {
+    border-color: #f39c12;
+    color: #f39c12;
+  }
+
+  @keyframes blink {
+    0%,100% { opacity:1; }
+    50%      { opacity:0.3; }
+  }
+
+  /* ── Layout ── */
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+  }
+
+  /* ── Stat Cards ── */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .stat-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--red-dim);
+    padding: 1.2rem 1.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.3s;
+  }
+
+  .stat-card:hover {
+    border-color: var(--red);
+  }
+
+  .stat-card::after {
+    content:'';
+    position:absolute;
+    top:0; right:0;
+    width:40px; height:40px;
+    background: radial-gradient(circle at top right, rgba(230,57,70,0.15), transparent);
+  }
+
+  .stat-label {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 3px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-value {
+    font-family: var(--mono);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--red);
+    text-shadow: 0 0 15px var(--red-glow);
+    line-height: 1;
+  }
+
+  .stat-sub {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-top: 4px;
+    font-family: var(--mono);
+  }
+
+  /* ── Main Grid ── */
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .full-width { grid-column: 1 / -1; }
+
+  /* ── Panel ── */
+  .panel {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .panel-header {
+    background: var(--bg3);
+    border-bottom: 1px solid var(--border);
+    padding: 0.8rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .panel-title {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    color: var(--red);
+    text-transform: uppercase;
+  }
+
+  .panel-badge {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    background: var(--red-dim);
+    color: var(--red);
+    padding: 2px 8px;
+    letter-spacing: 1px;
+  }
+
+  .panel-body {
+    padding: 1rem;
+    max-height: 320px;
+    overflow-y: auto;
+  }
+
+  .panel-body::-webkit-scrollbar { width: 4px; }
+  .panel-body::-webkit-scrollbar-track { background: var(--bg); }
+  .panel-body::-webkit-scrollbar-thumb { background: var(--red-dim); }
+
+  /* ── Alert Items ── */
+  .alert-item {
+    border-left: 3px solid var(--red-dim);
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.5rem;
+    background: rgba(230,57,70,0.04);
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    transition: all 0.2s;
+    animation: slideIn 0.3s ease;
+  }
+
+  @keyframes slideIn {
+    from { opacity:0; transform: translateX(-10px); }
+    to   { opacity:1; transform: translateX(0); }
+  }
+
+  .alert-item.HIGH, .alert-item.CRITICAL {
+    border-left-color: var(--red);
+    background: rgba(230,57,70,0.08);
+  }
+
+  .alert-item.MEDIUM {
+    border-left-color: #f39c12;
+    background: rgba(243,156,18,0.05);
+  }
+
+  .alert-item.LOW {
+    border-left-color: #3498db;
+    background: rgba(52,152,219,0.05);
+  }
+
+  .alert-time { color: var(--text-dim); font-size: 0.65rem; }
+  .alert-level {
+    display: inline-block;
+    font-size: 0.6rem;
+    padding: 1px 6px;
+    margin: 0 6px;
+    letter-spacing: 1px;
+  }
+
+  .alert-level.HIGH, .alert-level.CRITICAL {
+    background: var(--red); color: #000;
+  }
+  .alert-level.MEDIUM { background: #f39c12; color: #000; }
+  .alert-level.LOW    { background: #3498db; color: #000; }
+
+  .alert-reason { color: var(--text); }
+  .alert-details { color: var(--text-dim); font-size: 0.65rem; margin-top: 2px; }
+
+  /* ── Detection Card ── */
+  .detection-card {
+    background: rgba(230,57,70,0.06);
+    border: 1px solid var(--red-dim);
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    animation: slideIn 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .detection-card::before {
+    content:'';
+    position:absolute; left:0; top:0; bottom:0;
+    width:3px; background: var(--red);
+    box-shadow: 0 0 8px var(--red-glow);
+  }
+
+  .detection-family {
+    font-family: var(--mono);
+    font-size: 1rem;
+    color: var(--red);
+    text-shadow: 0 0 10px var(--red-glow);
+    margin-bottom: 4px;
+  }
+
+  .confidence-bar {
+    height: 4px;
+    background: var(--border);
+    margin: 6px 0;
+    position: relative;
+  }
+
+  .confidence-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--red-dim), var(--red));
+    box-shadow: 0 0 8px var(--red-glow);
+    transition: width 1s ease;
+  }
+
+  .detection-meta {
+    display: flex;
+    gap: 1rem;
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+
+  .risk-tag {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    padding: 2px 8px;
+    letter-spacing: 1px;
+    background: var(--red);
+    color: #000;
+    font-weight: 700;
+  }
+
+  /* ── File Feed ── */
+  .file-item {
+    display: flex;
+    gap: 0.8rem;
+    padding: 0.35rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    animation: slideIn 0.2s ease;
+  }
+
+  .file-time { color: var(--text-dim); min-width: 60px; }
+
+  .file-type {
+    min-width: 70px;
+    text-transform: uppercase;
+    font-size: 0.55rem;
+    letter-spacing: 1px;
+    padding: 1px 5px;
+    text-align: center;
+  }
+
+  .file-type.created  { background:#1a3a1a; color:#2ecc71; }
+  .file-type.modified { background:#3a2a0a; color:#f39c12; }
+  .file-type.deleted  { background:#3a0a0a; color:#e74c3c; }
+  .file-type.renamed  { background:#0a1a3a; color:#3498db; }
+
+  .file-path {
+    color: var(--text-dim);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex:1;
+  }
+
+  /* ── Chart ── */
+  .chart-wrap {
+    padding: 1rem;
+    height: 200px;
+    position: relative;
+  }
+
+  /* ── Report Panel ── */
+  .report-pre {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: #aaa;
+    white-space: pre;
+    line-height: 1.6;
+    overflow-x: auto;
+  }
+
+  /* ── Empty State ── */
+  .empty {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    text-align: center;
+    padding: 2rem;
+    letter-spacing: 2px;
+  }
+
+  /* ── Buttons ── */
+  .btn-row {
+    display: flex;
+    gap: 0.75rem;
+    padding: 1rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .btn {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    padding: 8px 18px;
+    border: 1px solid var(--red-dim);
+    background: transparent;
+    color: var(--red);
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  .btn:hover {
+    background: var(--red);
+    color: #000;
+    box-shadow: 0 0 15px var(--red-glow);
+  }
+
+  /* ── Event breakdown ── */
+  .breakdown {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .breakdown-item {
+    text-align: center;
+    padding: 0.75rem;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+  }
+
+  .breakdown-count {
+    font-family: var(--mono);
+    font-size: 1.5rem;
+    color: var(--red);
+  }
+
+  .breakdown-label {
+    font-family: var(--mono);
+    font-size: 0.55rem;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 3px;
+  }
+
+  /* ── Threat indicator ── */
+  .threat-meter {
+    padding: 1rem 1.2rem;
+  }
+
+  .threat-label {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 3px;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+  }
+
+  .threat-bar {
+    height: 8px;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .threat-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #2ecc71, #f39c12, var(--red));
+    transition: width 0.8s ease;
+    box-shadow: 0 0 10px var(--red-glow);
+  }
+
+  .threat-value {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--red);
+    text-align: right;
+    margin-top: 4px;
+  }
+
+  /* ── Connection indicator ── */
+  .conn-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #e74c3c;
+    display: inline-block;
+    margin-right: 6px;
+  }
+
+  .conn-dot.connected { background: #2ecc71; box-shadow: 0 0 6px #2ecc71; animation: blink 2s ease infinite; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <div class="logo-icon">🛡</div>
+    <div>
+      <h1>RANSOMWATCH</h1>
+      <span>REAL-TIME THREAT DETECTION SYSTEM v1.0</span>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="clock" id="clock">--:--:--</div>
+    <div>
+      <span class="conn-dot" id="conn-dot"></span>
+      <span id="conn-label" style="font-family:var(--mono);font-size:0.65rem;color:var(--text-dim);letter-spacing:2px;">CONNECTING</span>
+    </div>
+    <div id="status-badge">● IDLE</div>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- STAT CARDS -->
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-label">Total Events</div>
+      <div class="stat-value" id="stat-total">0</div>
+      <div class="stat-sub">file system events</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Alerts Fired</div>
+      <div class="stat-value" id="stat-alerts">0</div>
+      <div class="stat-sub">threats detected</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Families Found</div>
+      <div class="stat-value" id="stat-families">0</div>
+      <div class="stat-sub">ransomware classified</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Threat Level</div>
+      <div class="stat-value" id="stat-threat">--</div>
+      <div class="stat-sub" id="stat-threat-sub">awaiting data</div>
+    </div>
+  </div>
+
+  <!-- THREAT METER -->
+  <div class="panel" style="margin-bottom:1rem;">
+    <div class="panel-header">
+      <span class="panel-title">Threat Level Meter</span>
+      <span class="panel-badge" id="threat-badge">SCANNING</span>
+    </div>
+    <div class="threat-meter">
+      <div class="threat-label">CURRENT THREAT SCORE</div>
+      <div class="threat-bar"><div class="threat-fill" id="threat-fill"></div></div>
+      <div class="threat-value" id="threat-pct">0%</div>
+    </div>
+    <!-- Event Breakdown -->
+    <div class="breakdown">
+      <div class="breakdown-item">
+        <div class="breakdown-count" id="cnt-created" style="color:#2ecc71">0</div>
+        <div class="breakdown-label">Created</div>
+      </div>
+      <div class="breakdown-item">
+        <div class="breakdown-count" id="cnt-modified" style="color:#f39c12">0</div>
+        <div class="breakdown-label">Modified</div>
+      </div>
+      <div class="breakdown-item">
+        <div class="breakdown-count" id="cnt-renamed" style="color:#3498db">0</div>
+        <div class="breakdown-label">Renamed</div>
+      </div>
+      <div class="breakdown-item">
+        <div class="breakdown-count" id="cnt-deleted" style="color:#e74c3c">0</div>
+        <div class="breakdown-label">Deleted</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN GRID -->
+  <div class="main-grid">
+
+    <!-- ALERTS PANEL -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">⚠ Live Alerts</span>
+        <span class="panel-badge" id="alert-count-badge">0 ALERTS</span>
+      </div>
+      <div class="panel-body" id="alerts-list">
+        <div class="empty">NO ALERTS — SYSTEM CLEAN</div>
+      </div>
+    </div>
+
+    <!-- DETECTIONS PANEL -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">🔴 Ransomware Detections</span>
+        <span class="panel-badge" id="det-count-badge">0 DETECTED</span>
+      </div>
+      <div class="panel-body" id="detections-list">
+        <div class="empty">NO FAMILIES IDENTIFIED</div>
+      </div>
+    </div>
+
+    <!-- LIVE FILE FEED -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">📁 Live File Feed</span>
+        <span class="panel-badge">REAL-TIME</span>
+      </div>
+      <div class="panel-body" id="file-feed">
+        <div class="empty">AWAITING FILE EVENTS</div>
+      </div>
+    </div>
+
+    <!-- ACTIVITY CHART -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">📈 Event Activity Chart</span>
+        <span class="panel-badge">LIVE</span>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="activityChart"></canvas>
+      </div>
+    </div>
+
+    <!-- INCIDENT REPORT -->
+    <div class="panel full-width">
+      <div class="panel-header">
+        <span class="panel-title">📋 Incident Report</span>
+        <span class="panel-badge" id="report-filename">NO REPORT YET</span>
+      </div>
+      <div class="panel-body" style="max-height:300px;">
+        <div id="report-content" class="report-pre empty">NO INCIDENT REPORT GENERATED YET.
+RUN A SIMULATION OR MONITORING SESSION FIRST, THEN GENERATE A REPORT FROM THE CLI MENU.</div>
+      </div>
+      <div class="btn-row">
+        <button class="btn" onclick="loadReport()">↻ REFRESH REPORT</button>
+        <button class="btn" onclick="clearAlerts()">✕ CLEAR ALERTS</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// ── Clock ────────────────────────────────────────────────────────
+function updateClock() {
+  const now = new Date();
+  document.getElementById("clock").textContent =
+    now.toLocaleTimeString("en-GB", {hour12: false});
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// ── Chart setup ─────────────────────────────────────────────────
+const ctx = document.getElementById("activityChart").getContext("2d");
+const chartData = { labels: [], datasets: [{
+  label: "File Events",
+  data: [],
+  borderColor: "#e63946",
+  backgroundColor: "rgba(230,57,70,0.1)",
+  borderWidth: 2,
+  fill: true,
+  tension: 0.4,
+  pointBackgroundColor: "#e63946",
+  pointRadius: 3
+}]};
+
+const chart = new Chart(ctx, {
+  type: "line",
+  data: chartData,
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 300 },
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { color:"#444", font:{family:"'Share Tech Mono'", size:9} }, grid: { color:"#1a1a1a" } },
+      y: { ticks: { color:"#444", font:{family:"'Share Tech Mono'", size:9} }, grid: { color:"#1a1a1a" }, beginAtZero: true }
+    }
+  }
+});
+
+function addChartPoint(label, value) {
+  chartData.labels.push(label);
+  chartData.datasets[0].data.push(value);
+  if (chartData.labels.length > 20) {
+    chartData.labels.shift();
+    chartData.datasets[0].data.shift();
+  }
+  chart.update();
+}
+
+// ── State ────────────────────────────────────────────────────────
+let alertCount   = 0;
+let detCount     = 0;
+let threatScore  = 0;
+
+function updateThreat(score) {
+  threatScore = Math.min(score, 100);
+  document.getElementById("threat-fill").style.width = threatScore + "%";
+  document.getElementById("threat-pct").textContent  = threatScore + "%";
+
+  const badge = document.getElementById("threat-badge");
+  const stat  = document.getElementById("stat-threat");
+  if (threatScore >= 75) {
+    badge.textContent = "CRITICAL";
+    stat.textContent  = "CRIT";
+    document.getElementById("stat-threat-sub").textContent = "immediate danger";
+  } else if (threatScore >= 50) {
+    badge.textContent = "HIGH";
+    stat.textContent  = "HIGH";
+    document.getElementById("stat-threat-sub").textContent = "suspicious activity";
+  } else if (threatScore >= 25) {
+    badge.textContent = "MEDIUM";
+    stat.textContent  = "MED";
+    document.getElementById("stat-threat-sub").textContent = "monitoring closely";
+  } else {
+    badge.textContent = "LOW";
+    stat.textContent  = "LOW";
+    document.getElementById("stat-threat-sub").textContent = "system normal";
+  }
+}
+
+function setStatus(status) {
+  const badge = document.getElementById("status-badge");
+  badge.className = "";
+  const s = status.toLowerCase();
+  if (s === "monitoring") {
+    badge.textContent = "● MONITORING";
+    badge.classList.add("monitoring");
+  } else if (s === "alert") {
+    badge.textContent = "⚠ ALERT";
+    badge.classList.add("alert");
+  } else if (s === "contained") {
+    badge.textContent = "🔒 CONTAINED";
+    badge.classList.add("contained");
+  } else {
+    badge.textContent = "● IDLE";
+  }
+}
+
+// ── Render helpers ───────────────────────────────────────────────
+function renderAlert(a) {
+  const list = document.getElementById("alerts-list");
+  const empty = list.querySelector(".empty");
+  if (empty) empty.remove();
+
+  const div = document.createElement("div");
+  div.className = `alert-item ${a.level}`;
+  div.innerHTML = `
+    <div>
+      <span class="alert-time">${a.time}</span>
+      <span class="alert-level ${a.level}">${a.level}</span>
+      <span class="alert-reason">${a.reason}</span>
+    </div>
+    ${a.details ? `<div class="alert-details">${a.details}</div>` : ""}
+  `;
+  list.insertBefore(div, list.firstChild);
+
+  // keep max 50
+  while (list.children.length > 50) list.removeChild(list.lastChild);
+
+  alertCount++;
+  document.getElementById("stat-alerts").textContent   = alertCount;
+  document.getElementById("alert-count-badge").textContent = alertCount + " ALERTS";
+  updateThreat(threatScore + (a.level === "HIGH" || a.level === "CRITICAL" ? 15 : 8));
+  setStatus("alert");
+}
+
+function renderDetection(d) {
+  const list = document.getElementById("detections-list");
+  const empty = list.querySelector(".empty");
+  if (empty) empty.remove();
+
+  const div = document.createElement("div");
+  div.className = "detection-card";
+  div.innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div class="detection-family">${d.family}</div>
+      <span class="risk-tag">${d.risk}</span>
+    </div>
+    <div class="confidence-bar">
+      <div class="confidence-fill" style="width:${d.confidence}%"></div>
+    </div>
+    <div class="detection-meta">
+      <span>CONFIDENCE: ${d.confidence}%</span>
+      <span>DETECTED: ${d.time}</span>
+    </div>
+    ${d.description ? `<div style="font-family:var(--mono);font-size:0.6rem;color:#666;margin-top:6px">${d.description}</div>` : ""}
+  `;
+  list.insertBefore(div, list.firstChild);
+
+  detCount++;
+  document.getElementById("stat-families").textContent = detCount;
+  document.getElementById("det-count-badge").textContent = detCount + " DETECTED";
+  updateThreat(threatScore + 25);
+}
+
+function renderFileEvent(f) {
+  const feed = document.getElementById("file-feed");
+  const empty = feed.querySelector(".empty");
+  if (empty) empty.remove();
+
+  const div = document.createElement("div");
+  div.className = "file-item";
+  const shortPath = f.path.length > 55 ? "..." + f.path.slice(-55) : f.path;
+  div.innerHTML = `
+    <span class="file-time">${f.time}</span>
+    <span class="file-type ${f.type}">${f.type}</span>
+    <span class="file-path">${shortPath}</span>
+  `;
+  feed.insertBefore(div, feed.firstChild);
+  while (feed.children.length > 40) feed.removeChild(feed.lastChild);
+}
+
+// ── Load report ──────────────────────────────────────────────────
+function loadReport() {
+  fetch("/api/report")
+    .then(r => r.json())
+    .then(data => {
+      const el = document.getElementById("report-content");
+      el.className = "report-pre";
+      el.textContent = data.report;
+      if (data.filename) {
+        document.getElementById("report-filename").textContent = data.filename;
+      }
+    })
+    .catch(() => {});
+}
+
+function clearAlerts() {
+  document.getElementById("alerts-list").innerHTML = '<div class="empty">CLEARED</div>';
+  alertCount = 0;
+  document.getElementById("stat-alerts").textContent = "0";
+  document.getElementById("alert-count-badge").textContent = "0 ALERTS";
+}
+
+// ── Load initial state ───────────────────────────────────────────
+function applyFullState(state) {
+  setStatus(state.status || "IDLE");
+  document.getElementById("stat-total").textContent = state.total_events || 0;
+
+  const counts = state.event_counts || {};
+  document.getElementById("cnt-created").textContent  = counts.created  || 0;
+  document.getElementById("cnt-modified").textContent = counts.modified || 0;
+  document.getElementById("cnt-renamed").textContent  = counts.renamed  || 0;
+  document.getElementById("cnt-deleted").textContent  = counts.deleted  || 0;
+
+  (state.alerts || []).slice(0,20).reverse().forEach(renderAlert);
+  (state.detections || []).slice(0,5).reverse().forEach(renderDetection);
+  (state.recent_files || []).slice(0,20).reverse().forEach(renderFileEvent);
+
+  (state.timeline || []).forEach(p => addChartPoint(p.time, p.count));
+}
+
+// ── SocketIO ─────────────────────────────────────────────────────
+const socket = io();
+
+socket.on("connect", () => {
+  document.getElementById("conn-dot").className   = "conn-dot connected";
+  document.getElementById("conn-label").textContent = "LIVE";
+});
+
+socket.on("disconnect", () => {
+  document.getElementById("conn-dot").className   = "conn-dot";
+  document.getElementById("conn-label").textContent = "DISCONNECTED";
+});
+
+socket.on("full_state",    applyFullState);
+socket.on("new_alert",     renderAlert);
+socket.on("new_detection", renderDetection);
+
+socket.on("status_update", d => setStatus(d.status));
+
+socket.on("event_update", d => {
+  document.getElementById("stat-total").textContent    = d.total;
+  document.getElementById("cnt-created").textContent   = d.counts.created  || 0;
+  document.getElementById("cnt-modified").textContent  = d.counts.modified || 0;
+  document.getElementById("cnt-renamed").textContent   = d.counts.renamed  || 0;
+  document.getElementById("cnt-deleted").textContent   = d.counts.deleted  || 0;
+  if (d.file) renderFileEvent(d.file);
+  addChartPoint(d.file ? d.file.time : "--", d.total);
+});
+
+// Auto-load report on startup
+setTimeout(loadReport, 2000);
+</script>
+</body>
+</html>
